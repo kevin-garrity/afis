@@ -631,6 +631,29 @@ body.landing-page {
       border: none;
     }
   }
-
-
+  .favor-icon a {
+    background: $navy;
+    color: #fff;
+    padding: 4px 8px;
+    height: 28px;
+    width: 28px;
+    display: block;
+    border-radius: 50px;
+    margin-top: 50px;
+  }
+  .favor-icon a:hover {
+    background: darken($navy, 5%);
+  }
+  .logo {
+    margin-top: 200px;
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    font-size: 200px;
+    margin-bottom: 200px;
+  }
+  .favor-link a {
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 30px;
+   }
 }
