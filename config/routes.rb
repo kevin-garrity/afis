@@ -123,4 +123,6 @@ Myapp::Application.routes.draw do
 
   get "landing/index"
 
+  get "map/index"
+
 end
