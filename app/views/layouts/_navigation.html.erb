@@ -2,12 +2,23 @@
     <div class="sidebar-collapse">
         <ul class="nav metismenu" id="side-menu">
             <li class="nav-header">
-              <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poiret One">
+
               <div class="profile-element">
               <span class="clear">
                 <span class="logo-element">AFIS</span>
-                <span class="text-muted text-xs block">Air Force Inspection System</span>
               </span>
+
+                    <span>
+                        <img alt="image" class="img-circle" src="<%= image_url 'profile_small.jpg' %>"/>
+                    </span>
+                  <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                        <span class="clear">
+                            <span class="block m-t-xs">
+                                <strong class="font-bold">David Williams</strong>
+                            </span> <span class="text-muted text-xs block">Art Director <b class="caret"></b></span>
+                        </span>
+                  </a>
+
               </div>
             </li>
           <li class="<%= is_active_controller('afis') %>">
