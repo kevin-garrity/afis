@@ -15,3 +15,4 @@
 //= require highcharts/highcharts.js
 //= require highcharts/highcharts-more.js
 //= require highcharts/modules/solid-gauge.js
+//= require highcharts/modules/exporting.js

@@ -1,14 +1,14 @@
 Myapp::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
-  root to: 'dashboards#dashboard_1'
+  root to: 'landing#index'
 
   # All routes
   get "dashboards/dashboard_1"
   get "dashboards/dashboard_2"
-  get "dashboards/dashboard_3"
+  get "dashboards/checklists"
   get "dashboards/dashboard_4"
-  get "dashboards/dashboard_4_1"
+  get "dashboards/overview"
   get "dashboards/dashboard_5"
 
   get "layoutsoptions/index"
@@ -71,6 +71,8 @@ Myapp::Application.routes.draw do
   get "pages/not_found_error"
   get "pages/internal_server_error"
   get "pages/empty_page"
+  get "pages/inspections"
+  get "pages/checklists"
 
   get "miscellaneous/notification"
   get "miscellaneous/nestablelist"

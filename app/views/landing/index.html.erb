@@ -1,27 +1,29 @@
 <div class="container">
             <div class="col-lg-12 text-center">
               <ul class="list-inline favor-icon">
-                <li><a href="<%= url_for :controller => 'mailbox', :action => 'email_templates' %>"><i class="fa fa-envelope"></i></a>
+                <li><a href="<%= url_for :controller => 'mailbox', :action => 'inbox' %>"><i class="fa fa-envelope"></i></a>
                 </li>
-                <li><a href="<%= url_for :controller => 'appviews', :action => 'outlook_view' %>"><i class="fa fa-bell"></i></a>
+                <li><a href="<%= url_for :controller => 'appviews', :action => 'issue_tracker' %>"><i class="fa fa-bell"></i></a>
                 </li>
-                <li><a href="<%= url_for :controller => 'appviews', :action => 'profile' %>"><i class="fa fa-user"></i></a>
+                <li><a href="<%= url_for :controller => 'appviews', :action => 'profile_two' %>"><i class="fa fa-user"></i></a>
                 </li>
               </ul>
             </div>
 </div>
 
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poiret One">
-<div class="logo">
-  AFIS
-</div>
+<div class="col-lg-12 text-center logo">
 
-<div class="col-lg-12 text-center">
-   <ul class="list-inline favor-link">
-      <li><a href="<%= url_for :controller => 'dashboards', :action => 'dashboard_1' %>">DASHBOARD</a></li>
-      <li><a href="#inspections">INSPECTIONS</a></li>
-      <li><a href="#checklists">CHECKLISTS</a></li>
-      <li><a href="#forum">FORUM</a></li>
+  AFIS
+
+  </div>
+
+<div class="col-lg-12 text-center favor-link">
+   <ul class="list-inline">
+      <li><a href="<%= url_for :controller => 'dashboards', :action => 'overview' %>">DASHBOARD</a></li>
+      <li><a href="<%= url_for :controller => 'pages', :action => 'inspections' %>">INSPECTIONS</a></li>
+      <li><a href="<%= url_for :controller => 'pages', :action => 'checklists' %>">CHECKLISTS</a></li>
+      <li><a href="<%= url_for :controller => 'miscellaneous', :action => 'forum_view' %>">FORUM</a></li>
    </ul>
 </div>
 
@@ -35,50 +37,6 @@ $(function() {
 
     $('body').addClass('landing-page');
     $('body').attr('id', 'page-top');
-
-    $('body').scrollspy({
-        target: '.navbar-fixed-top',
-        offset: 80
-    });
-
-    // Page scrolling feature
-    $('a.page-scroll').bind('click', function(event) {
-        var link = $(this);
-        $('html, body').stop().animate({
-            scrollTop: $(link.attr('href')).offset().top - 50
-        }, 500);
-        event.preventDefault();
-    });
-
-    var cbpAnimatedHeader = (function() {
-        var docElem = document.documentElement,
-                header = document.querySelector( '.navbar-default' ),
-                didScroll = false,
-                changeHeaderOn = 200;
-        function init() {
-            window.addEventListener( 'scroll', function( event ) {
-                if( !didScroll ) {
-                    didScroll = true;
-                    setTimeout( scrollPage, 250 );
-                }
-            }, false );
-        }
-        function scrollPage() {
-            var sy = scrollY();
-            if ( sy >= changeHeaderOn ) {
-                $(header).addClass('navbar-scroll')
-            }
-            else {
-                $(header).removeClass('navbar-scroll')
-            }
-            didScroll = false;
-        }
-        function scrollY() {
-            return window.pageYOffset || docElem.scrollTop;
-        }
-        init();
-
-    })();
 
 
 });

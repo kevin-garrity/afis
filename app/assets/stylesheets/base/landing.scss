@@ -631,29 +631,42 @@ body.landing-page {
       border: none;
     }
   }
-  .favor-icon a {
-    background: $navy;
-    color: #fff;
-    padding: 4px 8px;
-    height: 28px;
-    width: 28px;
+  .favor-icon i {
+    color: $dark-gray;
+    height: 42px;
+    width: 42px;
     display: block;
-    border-radius: 50px;
-    margin-top: 50px;
-  }
-  .favor-icon a:hover {
-    background: darken($navy, 5%);
-  }
-  .logo {
-    margin-top: 200px;
-    text-align: center;
-    font-family: 'Poiret One', cursive;
-    font-size: 200px;
-    margin-bottom: 200px;
-  }
-  .favor-link a {
+    border-radius: 80px;
+    margin-top: 30px;
     margin-right: 10px;
     margin-left: 10px;
+    font-size:30px;
+  }
+  .favor-icon i:hover {
+    color: darken($navy, 5%);
+  }
+  div.logo {
+    position: absolute;
+    top: 40%;
+    margin-top: -147px;
+    font-family: 'Poiret One', cursive;
+    font-size: 150px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .favor-link{
+    position: absolute;
+    top: 70%;
+  }
+
+  .favor-link a {
+    color: $dark-gray;
+    margin-right: 15px;
+    margin-left: 15px;
     font-size: 30px;
    }
+  .favor-link a:hover {
+    color: darken($navy, 5%);
+  }
 }
