@@ -2,34 +2,31 @@
     <div class="sidebar-collapse">
         <ul class="nav metismenu" id="side-menu">
             <li class="nav-header">
-
-              <div class="profile-element">
+              <div class="logo-element">
               <span class="clear">
-                <span class="logo-element">AFIS</span>
+                AFIS
               </span>
-
+              </div>
+              <div class="profile-element">
                     <span>
                         <img alt="image" class="img-circle" src="<%= image_url 'profile_small.jpg' %>"/>
                     </span>
-                  <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                <a data-toggle="dropdown" class="dropdown-toggle" href="#">
                         <span class="clear">
                             <span class="block m-t-xs">
-                                <strong class="font-bold">David Williams</strong>
-                            </span> <span class="text-muted text-xs block">Art Director <b class="caret"></b></span>
+                                <strong class="font-bold">David Wrench</strong>
+                            </span> <span class="text-muted text-xs block">129th Rescue Wing</span>
                         </span>
-                  </a>
-
+                </a>
               </div>
             </li>
-          <li class="<%= is_active_controller('afis') %>">
-            <a href=""><i class="fa fa-plane"></i> <span class="nav-label">AFIS</span></a>
-          </li>
+
             <li class="<%= is_active_controller('dashboards') %>">
-                <a href=""><i class="fa fa-th-large"></i> <span class="nav-label">Dashboards</span> <span class="fa arrow"></span></a>
+                <a href=""><i class="fa fa-tachometer"></i> <span class="nav-label">Dashboards</span> <span class="fa arrow"></span></a>
                 <ul class="nav nav-second-level collapse <%= is_active_controller('dashboards') %>">
                     <li class="<%= is_active_action('overview') %>"><%= link_to "Overview", dashboards_overview_path %></li>
-                    <li class="<%= is_active_action('overview') %>"><%= link_to "Inspections", dashboards_overview_path %></li>
-                    <li class="<%= is_active_action('checklists') %>"><%= link_to "Checklists", dashboards_checklists_path %></li>
+                    <li class="<%= is_active_action('overview') %>"><%= link_to "Commanders Inspection", dashboards_overview_path %></li>
+                    <li class="<%= is_active_action('checklists') %>"><%= link_to "Self Assessment", dashboards_checklists_path %></li>
                     <li><a href="#">Risk Assessment</a></li>
                     <li><a href="#">CIMB</a></li>
                     <li>
@@ -53,17 +50,15 @@
             </li>
 
             <li>
-              <a href="#"><i class="fa fa-desktop"></i><span class="nav-label">Inspection</span></a>
+              <a href="<%= url_for :controller => 'pages', :action => 'inspections' %>"><i class="fa fa-search"></i><span class="nav-label">Inspection</span></a>
             </li>
 
             <li>
-              <a href="#"><i class="fa fa-list"></i><span class="nav-label">Checklist</span></a>
+              <a href="<%= url_for :controller => 'pages', :action => 'checklists' %>"><i class="fa fa-list-ul"></i><span class="nav-label">Checklist</span></a>
             </li>
 
-            <li class="<%=is_active_controller('forum') %>">
-              <%= link_to miscellaneous_forum_view_path do %>
-                <i class="fa fa-users"></i><span class="nav-label">Forum</span>
-              <% end %>
+            <li>
+              <a href="<%= url_for :controller => 'miscellaneous', :action => 'forum_view' %>"><i class="fa fa-comments"></i><span class="nav-label">Forum</span></a>
             </li>
 
             <li class="<%= is_active_controller('layoutsoptions') %>">

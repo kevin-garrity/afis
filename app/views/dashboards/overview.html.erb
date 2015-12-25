@@ -76,13 +76,14 @@
                   <div id="tab-1" class="tab-pane active">
                     <div class="panel-body">
                       <div class="table-responsive">
-                        <table class="table table-striped table-bordered table-hover">
+                        <table class="footable table table-stripped table-bordered table-hover">
                           <thead>
                           <tr>
-                            <th>Program</th>
+                            <th class="footable-sorted-desc">Program</th>
                             <th>Status</th>
-                            <th class="sorting_desc" aria-sort="descending">Deficiencies</th>
-                            <th>Inspection Date</th>
+                            <th class="footable-sorted-desc">Deficiencies</th>
+                            <th class="footable-sorted-desc">Inspection Date</th>
+                            <th>Program Manager</th>
                           </tr>
                           </thead>
                           <tbody>
@@ -92,6 +93,7 @@
                             <td><span class="label label-primary">Outstanding</span></td>
                             <td>8</td>
                             <td>1/1/2015</td>
+                            <td><a href="<%= url_for :controller => 'appviews', :action => 'profile_two' %>">Adam Smith</a></td>
                           </tr>
 
                           <tr>
@@ -99,6 +101,7 @@
                             <td><span class="label label-primary">Highly Effective</span></td>
                             <td>4</td>
                             <td>3/2/2014</td>
+                            <td><a href="<%= url_for :controller => 'appviews', :action => 'profile_two' %>">Mary Jones</a></td>
                           </tr>
 
                           <tr>
@@ -106,6 +109,7 @@
                             <td><span class="label label-primary">Effective</span></td>
                             <td>4</td>
                             <td>1/1/2015</td>
+                            <td><a href="<%= url_for :controller => 'appviews', :action => 'profile_two' %>">Adam Smith</a></td>
                           </tr>
 
                           <tr>
@@ -113,6 +117,7 @@
                             <td><span class="label label-warning">Marginally Effective</span></td>
                             <td>2</td>
                             <td>1/1/2015</td>
+                            <td><a href="<%= url_for :controller => 'appviews', :action => 'profile_two' %>">John Smith</a></td>
                           </tr>
 
                           <tr>
@@ -120,10 +125,9 @@
                             <td><span class="label label-danger">Ineffective</span></td>
                             <td>0</td>
                             <td>1/1/2015</td>
+                            <td><a href="<%= url_for :controller => 'appviews', :action => 'profile_two' %>">Mary Williams</a></td>
                           </tr>
-
-
-                          </tbody>
+                         </tbody>
                         </table>
                       </div>
                     </div>
@@ -132,15 +136,15 @@
                   <div id="tab-2" class="tab-pane">
                     <div class="panel-body">
                       <div class="table-responsive">
-                        <table class="table table-striped table-bordered table-hover">
+                        <table class="footable table table-striped table-bordered table-hover">
                           <thead>
                           <tr>
 
-                            <th>Program</th>
+                            <th class="footable-sorted-desc">Program</th>
                             <th>Status</th>
-                            <th class="sorting_desc">Deficiencies</th>
-                            <th>Inspection Date</th>
-
+                            <th class="footable-sorted-desc">Deficiencies</th>
+                            <th class="footable-sorted-desc">Inspection Date</th>
+                            <th>Program Manager</th>
                           </tr>
                           </thead>
                           <tbody>
@@ -150,6 +154,7 @@
                             <td><span class="label label-danger">Non Compliant</span></td>
                             <td>8</td>
                             <td>1/1/2015</td>
+                            <td><a href="<%= url_for :controller => 'appviews', :action => 'profile_two' %>">Adam Smith</a></td>
                           </tr>
 
                           <tr>
@@ -157,6 +162,7 @@
                             <td><span class="label label-warning">Comply with Comments</span></td>
                             <td>4</td>
                             <td>3/2/2014</td>
+                            <td><a href="<%= url_for :controller => 'appviews', :action => 'profile_two' %>">Mary Jones</a></td>
                           </tr>
 
                           <tr>
@@ -164,6 +170,7 @@
                             <td><span class="label-primary">Compliant</span></td>
                             <td>4</td>
                             <td>1/1/2015</td>
+                            <td><a href="<%= url_for :controller => 'appviews', :action => 'profile_two' %>">Adam Smith</a></td>
                           </tr>
 
                           <tr>
@@ -171,6 +178,7 @@
                             <td><span class="label label-primary">Compliant</span></td>
                             <td>2</td>
                             <td>1/1/2015</td>
+                            <td><a href="<%= url_for :controller => 'appviews', :action => 'profile_two' %>">John Smith</a></td>
                           </tr>
 
                           <tr>
@@ -178,6 +186,7 @@
                             <td><span class="label label-primary">Compliant</span></td>
                             <td>0</td>
                             <td>1/1/2015</td>
+                            <td><a href="<%= url_for :controller => 'appviews', :action => 'profile_two' %>">Joana Ivy</a></td>
                           </tr>
 
                           </tbody>
@@ -189,15 +198,15 @@
                   <div id="tab-3" class="tab-pane">
                     <div class="panel-body">
                       <div class="table-responsive">
-                        <table class="table table-striped table-bordered table-hover">
+                        <table class="footable table table-striped table-bordered table-hover">
                           <thead>
                           <tr>
 
                             <th>Exercise</th>
                             <th>Grade</th>
-                            <th class="sorting_desc">Recommended Improvements</th>
-                            <th>Inspection Date</th>
-
+                            <th class="footable-sorted-desc">Deficiencies</th>
+                            <th class="footable-sorted-desc">Recommended Improvements</th>
+                            <th class="footable-sorted-desc">Exercise Date</th>
                           </tr>
                           </thead>
                           <tbody>
@@ -205,6 +214,7 @@
                           <tr>
                             <td>Earthquake Exercise</td>
                             <td><span class="label label-primary">Outstanding</span></td>
+                            <td>8</td>
                             <td>15</td>
                             <td>1/1/2015</td>
                           </tr>
@@ -212,6 +222,7 @@
                           <tr>
                             <td>CBRN Exercise</td>
                             <td><span class="label label-primary">Highly Effective</span></td>
+                            <td>3</td>
                             <td>5</td>
                             <td>1/1/2015</td>
                           </tr>
@@ -219,6 +230,7 @@
                           <tr>
                             <td>Active Shooter TTX Exercise</td>
                             <td><span class="label label-primary">Effective</span></td>
+                            <td>8</td>
                             <td>2</td>
                             <td>1/1/2015</td>
                           </tr>
@@ -226,6 +238,7 @@
                           <tr>
                             <td>Civil Engineering FTX Exercise</td>
                             <td><span class="label label-warning">Marginally Effective</span></td>
+                            <td>4</td>
                             <td>1</td>
                             <td>1/1/2015</td>
                           </tr>
@@ -233,6 +246,7 @@
                           <tr>
                             <td>SCLA Security Forces Exercises</td>
                             <td><span class="label label-danger">Ineffective</span></td>
+                            <td>3</td>
                             <td>0</td>
                             <td>1/1/2015</td>
                           </tr>
@@ -246,15 +260,15 @@
                   <div id="tab-4" class="tab-pane">
                     <div class="panel-body">
                       <div class="table-responsive">
-                        <table class="table table-striped table-bordered table-hover">
+                        <table class="footable table table-striped table-bordered table-hover">
                           <thead>
                           <tr>
 
-                            <th>Program</th>
-                            <th>Status</th>
-                            <th class="sorting_desc">Deficiencies</th>
-                            <th>Inspection Date</th>
-
+                            <th>Unit</th>
+                            <th>Grade</th>
+                            <th class="footable-sorted-desc">Deficiencies</th>
+                            <th class="footable-sorted-desc">Inspection Date</th>
+                            <th>Self-Assessment Program Manager</th>
                           </tr>
                           </thead>
                           <tbody>
@@ -264,6 +278,7 @@
                             <td><span class="label label-primary">Outstanding</span></td>
                             <td>8</td>
                             <td>1/1/2015</td>
+                            <td><a href="<%= url_for :controller => 'appviews', :action => 'profile_two' %>">Joana Ivy</a></td>
                           </tr>
 
                           <tr>
@@ -271,6 +286,7 @@
                             <td><span class="label label-primary">Highly Effective</span></td>
                             <td>4</td>
                             <td>3/2/2014</td>
+                            <td><a href="<%= url_for :controller => 'appviews', :action => 'profile_two' %>">Alex Williams</a></td>
                           </tr>
 
                           <tr>
@@ -278,6 +294,7 @@
                             <td><span class="label label-primary">Effective</span></td>
                             <td>4</td>
                             <td>1/1/2015</td>
+                            <td><a href="<%= url_for :controller => 'appviews', :action => 'profile_two' %>">Harry Adams</a></td>
                           </tr>
 
                           <tr>
@@ -285,6 +302,7 @@
                             <td><span class="label label-warning">Marginally Effective</span></td>
                             <td>2</td>
                             <td>1/1/2015</td>
+                            <td><a href="<%= url_for :controller => 'appviews', :action => 'profile_two' %>">Adam Smith</a></td>
                           </tr>
 
                           <tr>
@@ -292,6 +310,7 @@
                             <td><span class="label label-danger">Ineffective</span></td>
                             <td>0</td>
                             <td>1/1/2015</td>
+                            <td><a href="<%= url_for :controller => 'appviews', :action => 'profile_two' %>">Joana Ivy</a></td>
                           </tr>
 
                           </tbody>
@@ -319,7 +338,6 @@
 <% content_for :javascript do %>
 
     <script type="text/javascript">
-
       $(function () {
 
         /*
@@ -375,22 +393,29 @@
                     // Hide loading and add series
                     chart.hideLoading();
                     clearTimeout(fail);
-                    chart.addSeriesAsDrilldown(e.point, {
-                      name: e.point.name,
-                      data: data,
-                      dataLabels: {
-                        enabled: true,
-                        format: '{point.name}'
-                      }
-                    });
+                    if(e.point.name == "California") {
+                      chart.addSeriesAsDrilldown(e.point, {
+                        // Use the gb-all map with no data as a basemap
+                          data: data,
+                          name: e.point.name,
+                          dataLabels: {
+                            enabled: true,
+                            format: '{point.name}'
+                          }
+                      });
+                    }else{
+                      chart.addSeriesAsDrilldown(e.point, {
+                        name: e.point.name,
+                        data: data
+                      });
+                    }
                   });
                 }
-
 
                 this.setTitle(null, { text: e.point.name });
               },
               drillup: function () {
-                this.setTitle(null, { text: 'USA' });
+                this.setTitle(null, { text: '' });
               }
             }
           },
@@ -400,7 +425,7 @@
           },
 
           subtitle: {
-            text: 'USA',
+            text: '',
             floating: true,
             align: 'right',
             y: 50,
@@ -413,12 +438,6 @@
             layout: 'vertical',
             align: 'right',
             verticalAlign: 'middle'
-          },
-
-          colorAxis: {
-            min: 0,
-            minColor: '#E6E7E8',
-            maxColor: '#005645'
           },
 
           mapNavigation: {
@@ -438,23 +457,24 @@
             }
           },
 
-          series : [{
+         series: [{
+            type: 'map',
             data : data,
             name: 'USA',
+            color: '#D3D3D3',
             dataLabels: {
               enabled: true,
               format: '{point.properties.postal-code}'
             }
           }],
 
-          drilldown: {
-            //series: drilldownSeries,
-            activeDataLabelStyle: {
+          drilldown:  {
+           activeDataLabelStyle: {
               color: '#FFFFFF',
               textDecoration: 'none',
               textShadow: '0 0 3px #000000'
             },
-            drillUpButton: {
+           drillUpButton: {
               relativeTo: 'spacingBox',
               position: {
                 x: 0,
@@ -464,6 +484,11 @@
           }
         });
 
+        $('.footable').footable();
+        $('.footable2').footable();
+
+      });
+/*
         var colors = Highcharts.getOptions().colors,
             categories = ['MSIE', 'Firefox', 'Chrome', 'Safari', 'Opera'],
             checkdata = [{
@@ -557,13 +582,14 @@
         // Create the chart
         $('#container-checklist').highcharts({
           chart: {
-            type: 'pie'
+            type: 'pie',
+            renderTo: 'container-checklist'
           },
           title: {
             text: 'Browser market share, January, 2015 to May, 2015'
           },
           subtitle: {
-            text: 'Source: <a href="http://netmarketshare.com/">netmarketshare.com</a>'
+            text: ''
           },
           yAxis: {
             title: {
@@ -605,8 +631,7 @@
         });
 
       });
-
-
+*/
     </script>
 
 <% end %>

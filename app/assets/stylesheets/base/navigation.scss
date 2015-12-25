@@ -142,7 +142,7 @@
 }
 
 .nav-header {
-  padding: 2px 25px;
+  padding: 2px 15px;
   background: $nav-profil-pattern;
 }
 
@@ -315,6 +315,10 @@ body.mini-navbar .navbar-default .nav > li > .nav-second-level li a {
   font-weight: 600;
   color: white;
   display: block;
+}
+
+.profile-element{
+  margin: 3px;
 }
 
 .pace-done .navbar-static-side, .pace-done .nav-header, .pace-done li.active, .pace-done #page-wrapper, .pace-done .footer {
@@ -499,3 +503,4 @@ body.canvas-menu.mini-navbar nav.navbar-static-side {
   display: block;
   width: 220px;
 }
+
