@@ -2,30 +2,94 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d35d6f79-cb93-4411-9ff8-e7e495cac302" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sass/a8c3f32d6665c87d36dd590e1f632052275af498/navigation.scssc" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sass/a8c3f32d6665c87d36dd590e1f632052275af498/navigation.scssc" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highmaps/json/capital.json" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/19d565a9adf9c444137823f34a04c01a" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/19d565a9adf9c444137823f34a04c01a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/20f273b3aae704a026aaf9f8738b395c" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/20f273b3aae704a026aaf9f8738b395c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/1a21afa0945f40e0a5f0a24aa13a493d" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/1a21afa0945f40e0a5f0a24aa13a493d" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/25a6d1febd322002921ae5b3b31f307d" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/25a6d1febd322002921ae5b3b31f307d" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/264a0ab83d3e7524cad560ed3e863529" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/264a0ab83d3e7524cad560ed3e863529" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/2ff50f8eeb2375b74ac6494af58dbd28" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/2ff50f8eeb2375b74ac6494af58dbd28" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/38ae1e43e5b0cd2272a36df6d0f09074" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/38ae1e43e5b0cd2272a36df6d0f09074" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/410e5bbcbb6cb994489821ff1de4da20" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/410e5bbcbb6cb994489821ff1de4da20" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/5418b850df4ae20d988b99b499a7d624" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/5418b850df4ae20d988b99b499a7d624" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/56fc4c16953a23bb8c48b8fe1cf0df55" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/56fc4c16953a23bb8c48b8fe1cf0df55" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/5af61df2ea23e09e27a3d0473e0712c4" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/5af61df2ea23e09e27a3d0473e0712c4" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/6012c39c9c7749ad48874d164019c1cb" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/6012c39c9c7749ad48874d164019c1cb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/671b089b50e0197b801775c133af338d" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/671b089b50e0197b801775c133af338d" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/8ab512c9b33ac90e699b73469d71f061" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/8ab512c9b33ac90e699b73469d71f061" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/9618485e86fc2a1d22cf814032d80b3e" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/9618485e86fc2a1d22cf814032d80b3e" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/ad965616865737701f9c8b0e84c219b1" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/ad965616865737701f9c8b0e84c219b1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/b7da1a1d56604c814b7fd369a96d2411" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/b7da1a1d56604c814b7fd369a96d2411" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/bcca522c6302f184f12fe0e8a7d7e71a" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/bcca522c6302f184f12fe0e8a7d7e71a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/c13fc73ceafa45876a901b3e775b83ae" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/c13fc73ceafa45876a901b3e775b83ae" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/cec9071727c35ccfdfb2d5424ec85d39" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/cec9071727c35ccfdfb2d5424ec85d39" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/7dfc8871aa43c62f91e88167b8d9f32f" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/7dfc8871aa43c62f91e88167b8d9f32f" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/840d45468c8e7f3b2b6b3d820abc4eb3" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/840d45468c8e7f3b2b6b3d820abc4eb3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/a5529da0c9f728fd09a22126acfbac4b" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/a5529da0c9f728fd09a22126acfbac4b" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/bbe8284fa361a1502777cd86bcce176f" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/bbe8284fa361a1502777cd86bcce176f" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/bd76b04857d4b1946d794f0ee4bb6109" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/bd76b04857d4b1946d794f0ee4bb6109" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/ef8d463dd1223e7ae06faf2328ea7bf4" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/ef8d463dd1223e7ae06faf2328ea7bf4" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/f249f1aef9811b787104fcddd5ca2ed4" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/f249f1aef9811b787104fcddd5ca2ed4" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/f30464b64a11c2095d68bc728142d0e6" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/f30464b64a11c2095d68bc728142d0e6" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/dashboards.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/dashboards.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/base/navigation.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/base/navigation.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/dashboards.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/dashboards.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/tables.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/tables.css.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/dashboards/overview.html.erb" afterPath="$PROJECT_DIR$/app/views/dashboards/overview.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_navigation.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_navigation.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highcharts/highcharts-3d.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highcharts/highcharts-3d.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highcharts/highcharts-3d.src.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highcharts/highcharts-3d.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highcharts/highcharts-more.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highcharts/highcharts-more.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highcharts/highcharts-more.src.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highcharts/highcharts-more.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highcharts/highcharts.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highcharts/highcharts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highcharts/highcharts.src.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highcharts/highcharts.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highcharts/modules/broken-axis.src.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highcharts/modules/broken-axis.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highcharts/modules/canvas-tools.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highcharts/modules/canvas-tools.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highcharts/modules/canvas-tools.src.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highcharts/modules/canvas-tools.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highcharts/modules/data.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highcharts/modules/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highcharts/modules/data.src.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highcharts/modules/data.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highcharts/modules/exporting.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highcharts/modules/exporting.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highcharts/modules/exporting.src.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highcharts/modules/exporting.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highcharts/modules/heatmap.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highcharts/modules/heatmap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highcharts/modules/heatmap.src.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highcharts/modules/heatmap.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highcharts/modules/no-data-to-display.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highcharts/modules/no-data-to-display.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highcharts/modules/no-data-to-display.src.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highcharts/modules/no-data-to-display.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highcharts/modules/offline-exporting.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highcharts/modules/offline-exporting.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highcharts/modules/offline-exporting.src.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highcharts/modules/offline-exporting.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highcharts/modules/solid-gauge.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highcharts/modules/solid-gauge.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highcharts/modules/solid-gauge.src.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highcharts/modules/solid-gauge.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highcharts/modules/treemap.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highcharts/modules/treemap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highcharts/modules/treemap.src.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highcharts/modules/treemap.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highmaps/highmaps.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highmaps/highmaps.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highmaps/highmaps.src.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highmaps/highmaps.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highmaps/modules/boost.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highmaps/modules/boost.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highmaps/modules/boost.src.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highmaps/modules/boost.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highmaps/modules/canvas-tools.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highmaps/modules/canvas-tools.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highmaps/modules/canvas-tools.src.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highmaps/modules/canvas-tools.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highmaps/modules/data.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highmaps/modules/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highmaps/modules/data.src.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highmaps/modules/data.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highmaps/modules/drilldown.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highmaps/modules/drilldown.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highmaps/modules/drilldown.src.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highmaps/modules/drilldown.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highmaps/modules/exporting.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highmaps/modules/exporting.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highmaps/modules/exporting.src.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highmaps/modules/exporting.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highmaps/modules/heatmap.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highmaps/modules/heatmap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highmaps/modules/heatmap.src.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highmaps/modules/heatmap.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highmaps/modules/map.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highmaps/modules/map.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highmaps/modules/map.src.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highmaps/modules/map.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highmaps/modules/offline-exporting.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highmaps/modules/offline-exporting.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highmaps/modules/offline-exporting.src.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highmaps/modules/offline-exporting.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highmaps/modules/treemap.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highmaps/modules/treemap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highmaps/modules/treemap.src.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highmaps/modules/treemap.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highstock/highcharts-3d.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highstock/highcharts-3d.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highstock/highcharts-3d.src.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highstock/highcharts-3d.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highstock/highcharts-more.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highstock/highcharts-more.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highstock/highcharts-more.src.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highstock/highcharts-more.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highstock/highstock-all.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highstock/highstock-all.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highstock/highstock.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highstock/highstock.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highstock/highstock.src.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highstock/highstock.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highstock/modules/canvas-tools.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highstock/modules/canvas-tools.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highstock/modules/canvas-tools.src.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highstock/modules/canvas-tools.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highstock/modules/data.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highstock/modules/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highstock/modules/data.src.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highstock/modules/data.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highstock/modules/exporting.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highstock/modules/exporting.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highstock/modules/exporting.src.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highstock/modules/exporting.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highstock/modules/heatmap.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highstock/modules/heatmap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highstock/modules/heatmap.src.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highstock/modules/heatmap.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highstock/modules/no-data-to-display.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highstock/modules/no-data-to-display.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highstock/modules/no-data-to-display.src.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highstock/modules/no-data-to-display.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highstock/modules/offline-exporting.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highstock/modules/offline-exporting.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highstock/modules/offline-exporting.src.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highstock/modules/offline-exporting.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highstock/modules/solid-gauge.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highstock/modules/solid-gauge.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highstock/modules/solid-gauge.src.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highstock/modules/solid-gauge.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highstock/modules/treemap.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highstock/modules/treemap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highstock/modules/treemap.src.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highstock/modules/treemap.src.js" />
     </list>
     <ignored path="afis.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,17 +115,51 @@
     <favorites_list name="afis" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="overview.html.erb" pinned="false" current-in-tab="true">
+    <leaf>
+      <file leaf-file-name="overview.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/dashboards/overview.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.36588103">
-              <caret line="79" column="33" selection-start-line="79" selection-start-column="33" selection-end-line="79" selection-end-column="33" />
+            <state vertical-scroll-proportion="-29.962265">
+              <caret line="696" column="28" selection-start-line="696" selection-start-column="28" selection-end-line="696" selection-end-column="28" />
               <folding>
-                <element signature="e#635#657#0#HTML" expanded="true" />
-                <element signature="e#4845#7838#0#HTML" expanded="false" />
-                <element signature="e#7858#10452#0#HTML" expanded="false" />
-                <element signature="e#10472#13526#0#HTML" expanded="false" />
+                <element signature="e#461#489#0#HTML" expanded="true" />
+                <element signature="e#648#691#0#HTML" expanded="true" />
+                <element signature="e#728#750#0#HTML" expanded="true" />
+                <element signature="e#807#851#0#HTML" expanded="true" />
+                <element signature="e#887#909#0#HTML" expanded="true" />
+                <element signature="e#1123#1166#0#HTML" expanded="true" />
+                <element signature="e#1208#1230#0#HTML" expanded="true" />
+                <element signature="e#1287#1331#0#HTML" expanded="true" />
+                <element signature="e#1374#1396#0#HTML" expanded="true" />
+                <element signature="e#1457#14018#0#HTML" expanded="false" />
+                <marker date="1451095616983" expanded="true" signature="22540:22557" placeholder="..." />
+                <marker date="1451095616983" expanded="true" signature="22572:22676" placeholder="..." />
+                <marker date="1451095616983" expanded="true" signature="22729:22756" placeholder="..." />
+                <marker date="1451095616983" expanded="true" signature="23218:23235" placeholder="..." />
+                <marker date="1451095616983" expanded="true" signature="23250:23354" placeholder="..." />
+                <marker date="1451095616983" expanded="true" signature="23411:23438" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_navigation.html.erb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/_navigation.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4466891">
+              <caret line="238" column="62" selection-start-line="238" selection-start-column="62" selection-end-line="238" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dashboards.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/dashboards.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -105,11 +203,11 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/style.scss" />
         <option value="$PROJECT_DIR$/app/views/layouts/_topnavbar.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/base/navigation.scss" />
-        <option value="$PROJECT_DIR$/app/views/layouts/_navigation.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/dashboards.css.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/tables.css.scss" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/dashboards.js" />
         <option value="$PROJECT_DIR$/app/views/dashboards/overview.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/_navigation.html.erb" />
       </list>
     </option>
   </component>
@@ -149,9 +247,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="RailsProjectView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -201,6 +297,10 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="widgets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -217,10 +317,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tables" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -264,29 +360,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="landing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="afis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="afis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dashboards" />
+              <option name="myItemId" value="layouts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -400,6 +474,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -407,6 +483,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="full.screen.before.presentation.mode" value="false" />
   </component>
   <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.All tests in stylesheets: afis">
     <configuration default="false" name="All tests in stylesheets: afis" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
@@ -556,27 +633,47 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18541667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921812" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921812" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32921812" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921812" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18541667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32921812" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -701,13 +798,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/assets/javascripts/highmaps/highmaps.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16207626">
-          <caret line="15" column="212" selection-start-line="15" selection-start-column="212" selection-end-line="15" selection-end-column="212" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/graphs/chartjs.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.5847363">
@@ -747,7 +837,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="9" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -755,7 +844,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="52" column="16" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -763,7 +851,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -771,7 +858,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -779,9 +865,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.07631874">
           <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -789,7 +872,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.019079685">
           <caret line="1" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -805,7 +887,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.3396225">
           <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -817,19 +898,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_navigation.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.9811325">
-          <caret line="28" column="98" selection-start-line="28" selection-start-column="98" selection-end-line="28" selection-end-column="98" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/_topnavbar.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.528302">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -853,7 +925,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.8292683">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="154" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -865,26 +936,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/assets/javascripts/highmaps/highmaps.src.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="999" column="16" selection-start-line="999" selection-start-column="16" selection-end-line="999" selection-end-column="16" />
-          <folding>
-            <marker date="1450515318030" expanded="true" signature="54259:54274" placeholder="..." />
-            <marker date="1450515318030" expanded="true" signature="54341:54360" placeholder="..." />
-            <marker date="1450515318030" expanded="true" signature="115930:115946" placeholder="..." />
-            <marker date="1450515318030" expanded="true" signature="116011:116028" placeholder="..." />
-            <marker date="1450515318030" expanded="true" signature="582263:582282" placeholder="..." />
-            <marker date="1450515318030" expanded="true" signature="582311:582327" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/landing/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.2452831">
           <caret line="7" column="97" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="97" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -908,7 +963,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.3207547">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -916,9 +970,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="45" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -934,19 +985,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.16207626">
           <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/dashboards.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -986,23 +1024,57 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-98.320755">
           <caret line="528" column="31" selection-start-line="527" selection-start-column="4" selection-end-line="528" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/widgets/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.85858583">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/dashboards.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
           <folding>
-            <element signature="n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="false" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/dashboards/overview.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36588103">
-          <caret line="79" column="33" selection-start-line="79" selection-start-column="33" selection-end-line="79" selection-end-column="33" />
+        <state vertical-scroll-proportion="-29.962265">
+          <caret line="696" column="28" selection-start-line="696" selection-start-column="28" selection-end-line="696" selection-end-column="28" />
           <folding>
-            <element signature="e#635#657#0#HTML" expanded="true" />
-            <element signature="e#4845#7838#0#HTML" expanded="false" />
-            <element signature="e#7858#10452#0#HTML" expanded="false" />
-            <element signature="e#10472#13526#0#HTML" expanded="false" />
+            <element signature="e#461#489#0#HTML" expanded="true" />
+            <element signature="e#648#691#0#HTML" expanded="true" />
+            <element signature="e#728#750#0#HTML" expanded="true" />
+            <element signature="e#807#851#0#HTML" expanded="true" />
+            <element signature="e#887#909#0#HTML" expanded="true" />
+            <element signature="e#1123#1166#0#HTML" expanded="true" />
+            <element signature="e#1208#1230#0#HTML" expanded="true" />
+            <element signature="e#1287#1331#0#HTML" expanded="true" />
+            <element signature="e#1374#1396#0#HTML" expanded="true" />
+            <element signature="e#1457#14018#0#HTML" expanded="false" />
+            <marker date="1451095616983" expanded="true" signature="22540:22557" placeholder="..." />
+            <marker date="1451095616983" expanded="true" signature="22572:22676" placeholder="..." />
+            <marker date="1451095616983" expanded="true" signature="22729:22756" placeholder="..." />
+            <marker date="1451095616983" expanded="true" signature="23218:23235" placeholder="..." />
+            <marker date="1451095616983" expanded="true" signature="23250:23354" placeholder="..." />
+            <marker date="1451095616983" expanded="true" signature="23411:23438" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_navigation.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4466891">
+          <caret line="238" column="62" selection-start-line="238" selection-start-column="62" selection-end-line="238" selection-end-column="62" />
+          <folding />
         </state>
       </provider>
     </entry>

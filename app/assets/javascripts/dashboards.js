@@ -8,12 +8,16 @@
 //= require jvectormap/jquery-jvectormap-2.0.2.min.js
 //= require jvectormap/jquery-jvectormap-world-mill-en.js
 //= require toastr/toastr.min.js
-//= require highmaps/highmaps.js
+
+//= require highstock/highstock.js
+//= require highmaps/modules/map.js
 //= require highmaps/modules/data.js
 //= require highmaps/modules/drilldown.js
 //= require highmaps/mapdata/us-all.js
 //= require highmaps/modules/exporting.js
-//= require proj4js/proj4.js
+//= require highcharts/highcharts-more.js
+//= require highcharts/modules/solid-gauge.js
+
 //= require iCheck/icheck.min.js
 //= require jeditable/jquery.jeditable.js
 //= require dataTables/jquery.dataTables.js
