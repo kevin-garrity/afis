@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d35d6f79-cb93-4411-9ff8-e7e495cac302" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_navigation.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_navigation.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/dashboards/selfassess.html.erb" afterPath="$PROJECT_DIR$/app/views/dashboards/selfassess.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
     </list>
     <ignored path="afis.iws" />
@@ -41,20 +41,33 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="selfassess.html.erb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/dashboards/selfassess.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3529412">
+              <caret line="95" column="2" selection-start-line="95" selection-start-column="2" selection-end-line="95" selection-end-column="2" />
+              <folding>
+                <element signature="e#363#436#0#HTML" expanded="false" />
+                <marker date="1451247796402" expanded="true" signature="3879:3899" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="application.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.5">
-              <caret line="27" column="42" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="42" />
+            <state vertical-scroll-proportion="-17.0">
+              <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="39" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_navigation.html.erb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_navigation.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/_navigation.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7647059">
+            <state vertical-scroll-proportion="-25.5">
               <caret line="255" column="3" selection-start-line="255" selection-start-column="3" selection-end-line="255" selection-end-column="3" />
               <folding />
             </state>
@@ -91,7 +104,6 @@
         <option value="$PROJECT_DIR$/app/views/dashboards/checklists.html.erb" />
         <option value="$PROJECT_DIR$/app/views/pages/inspections.html.erb" />
         <option value="$PROJECT_DIR$/app/views/pages/checklists.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/landing/index.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/base/landing.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/style.scss" />
@@ -102,7 +114,6 @@
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/dashboards.css.scss" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/dashboards.js" />
-        <option value="$PROJECT_DIR$/app/views/dashboards/selfassess.html.erb" />
         <option value="$PROJECT_DIR$/app/views/dashboards/_checklists.html.erb" />
         <option value="$PROJECT_DIR$/app/views/dashboards/_map.html.erb" />
         <option value="$PROJECT_DIR$/app/views/dashboards/_inspanel.html.erb" />
@@ -110,6 +121,8 @@
         <option value="$PROJECT_DIR$/app/views/dashboards/inspection.html.erb" />
         <option value="$PROJECT_DIR$/app/views/dashboards/riskassess.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_navigation.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/dashboards/selfassess.html.erb" />
       </list>
     </option>
   </component>
@@ -286,6 +299,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="afis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="afis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dashboards" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -913,13 +948,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/dashboards/selfassess.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.1408284">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/dashboards/inspection.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6213018">
@@ -934,6 +962,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_navigation.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-25.5">
+          <caret line="255" column="3" selection-start-line="255" selection-start-column="3" selection-end-line="255" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.0">
+          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="39" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/dashboards/riskassess.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-32.076923">
@@ -942,19 +986,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/dashboards/selfassess.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.5">
-          <caret line="27" column="42" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_navigation.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7647059">
-          <caret line="255" column="3" selection-start-line="255" selection-start-column="3" selection-end-line="255" selection-end-column="3" />
-          <folding />
+        <state vertical-scroll-proportion="0.3529412">
+          <caret line="95" column="2" selection-start-line="95" selection-start-column="2" selection-end-line="95" selection-end-column="2" />
+          <folding>
+            <element signature="e#363#436#0#HTML" expanded="false" />
+            <marker date="1451247796402" expanded="true" signature="3879:3899" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
