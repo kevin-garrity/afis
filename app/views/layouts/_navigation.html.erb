@@ -25,9 +25,9 @@
                 <a href=""><i class="fa fa-tachometer"></i> <span class="nav-label">Dashboards</span> <span class="fa arrow"></span></a>
                 <ul class="nav nav-second-level collapse <%= is_active_controller('dashboards') %>">
                     <li class="<%= is_active_action('overview') %>"><%= link_to "Overview", dashboards_overview_path %></li>
-                    <li class="<%= is_active_action('overview') %>"><%= link_to "Commanders Inspection", dashboards_overview_path %></li>
-                    <li class="<%= is_active_action('checklists') %>"><%= link_to "Self Assessment", dashboards_checklists_path %></li>
-                    <li><a href="#">Risk Assessment</a></li>
+                    <li class="<%= is_active_action('inspection') %>"><%= link_to "Commanders Inspection", dashboards_inspection_path %></li>
+                    <li class="<%= is_active_action('selfassess') %>"><%= link_to "Self Assessment", dashboards_selfassess_path %></li>
+                    <li class="<%= is_active_action('riskassess') %>"><%= link_to "Risk Assessment", dashboards_riskassess_path %></li>
                     <li><a href="#">CIMB</a></li>
                     <li>
                       <a href="#">Analysis<span class="fa arrow"></span></a>
@@ -63,7 +63,7 @@
 
 
 
-<!--
+
             <li class="<%= is_active_controller('layoutsoptions') %>">
                 <%= link_to layoutsoptions_index_path do %>
                 <i class="fa fa-diamond"></i> <span class="nav-label">Layouts</span> <span class="label label-primary pull-right">NEW</span>
@@ -253,7 +253,7 @@
                 <i class="fa fa-star"></i> <span class="nav-label">Landing page </span>
                 <% end %>
             </li>
--->
+
 
 
 

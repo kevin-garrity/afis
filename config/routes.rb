@@ -4,12 +4,16 @@ Myapp::Application.routes.draw do
   root to: 'landing#index'
 
   # All routes
+  get "dashboards/riskassess"
+  get "dashboards/selfassess"
+  get "dashboards/inspection"
+  get "dashboards/dashboard_4"
   get "dashboards/dashboard_1"
   get "dashboards/dashboard_2"
-  get "dashboards/checklists"
-  get "dashboards/dashboard_4"
+  get "dashboards/dashboard_3"
   get "dashboards/overview"
   get "dashboards/dashboard_5"
+  get "dashboards/_map"
 
   get "layoutsoptions/index"
   get "layoutsoptions/off_canvas"
@@ -124,7 +128,5 @@ Myapp::Application.routes.draw do
   get "cssanimations/index"
 
   get "landing/index"
-
-  get "map/index"
 
 end

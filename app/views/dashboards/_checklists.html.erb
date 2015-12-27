@@ -1,0 +1,130 @@
+      <div class="ibox">
+        <div class="ibox-title">
+          <h1>Checklists</h1>
+        </div>
+        <div class="ibox-content" style="clear:left; float:left; width: 50%;">
+          <div id="container-checklist" style="height: 215px;"></div>
+        </div>
+        <div class="ibox-content" style="clear:right; float:left; width: 50%;">
+          <div id="container-completion" style="height: 215px;"></div>
+        </div>
+      </div>
+
+
+<% content_for :javascript do %>
+
+    <script type="text/javascript">
+      $(function () {
+
+        var colors = Highcharts.getOptions().colors,
+            categories = ['Compliance'],
+            checkdata = [{
+              y: 56.33,
+              color: colors[0],
+              drilldown: {
+                name: 'Compliance',
+                categories: ['', '', ''],
+                data: [70, 10, 20],
+                color: colors[0]
+              }
+            }],
+            versionsData = [],
+            i,
+            j,
+            dataLen = checkdata.length,
+            drillDataLen,
+            brightness;
+
+
+        // Build the data arrays
+        for (i = 0; i < dataLen; i += 1) {
+
+        // add version data
+          drillDataLen = checkdata[i].drilldown.data.length;
+          for (j = 0; j < drillDataLen; j += 1) {
+            brightness = 0.2 - (j / drillDataLen) / 5;
+            versionsData.push({
+              name: checkdata[i].drilldown.categories[j],
+              y: checkdata[i].drilldown.data[j],
+              color: Highcharts.Color(checkdata[i].color).brighten(brightness).get()
+            });
+          }
+        }
+
+        // Create the chart
+        $('#container-checklist').highcharts({
+          chart: {
+            type: 'pie',
+            renderTo: 'container-checklist',
+          },
+          title: {
+            text: ''
+          },
+          subtitle: {
+            text: 'Compliance',
+            align: 'top'
+          },
+          tooltip: {
+            enabled: false
+          },
+          credits: {
+            enabled: false
+          },
+          plotOptions: {
+            pie: {
+              shadow: false,
+              center: ['50%', '50%'],
+              dataLabels: {
+                enabled: false
+              }
+            }
+          },
+
+          series: [{
+            name: 'Compliance',
+            data: versionsData,
+            size: '140%',
+            innerSize: '60%',
+          }]
+        });
+
+      $('#container-completion').highcharts({
+        chart: {
+          type: 'pie',
+          renderTo: 'container-completion',
+        },
+        title: {
+          text: ''
+        },
+        credits: {
+          enabled: false
+        },
+        subtitle: {
+          text: 'Completion',
+          align: 'top'
+        },
+        tooltip: {
+          enabled: false
+        },
+        plotOptions: {
+          pie: {
+            shadow: false,
+            center: ['50%', '50%'],
+            dataLabels: {
+              enabled: false
+            }
+          }
+        },
+
+        series: [{
+          name: 'Completion',
+          data: versionsData,
+          size: '140%',
+          innerSize: '60%',
+        }]
+      });
+
+      });
+    </script>
+
+<% end %>

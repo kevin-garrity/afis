@@ -1,0 +1,228 @@
+      <div class="ibox float-e-margins">
+        <div class="ibox-content">
+
+          <div class="m-t-sm">
+
+            <div class="row">
+              <div class="col-md-12">
+
+                  <div id="container-map" style="height: 500px;"></div>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+<% content_for :javascript do %>
+
+    <script type="text/javascript">
+      $(function () {
+
+        /*
+         TODO:
+         - Check data labels after drilling. Label rank? New positions?
+         - Not US Mainland text
+         - Separators
+         */
+        var mapData = Highcharts.maps['countries/us/us-all'],
+            myData = Highcharts.geojson(Highcharts.maps['countries/us/us-all']),
+            tempSeries,
+        // Some responsiveness
+            small = $('#container-map').width() < 400;
+
+        // Set drilldown pointers
+        $.each(myData, function (i) {
+          this['hc-key'] = this.properties['hc-key'];
+          this['postal-code'] = this.properties['postal-code'];
+          this.drilldown = this.properties['hc-key'];
+          this.value = i;
+        });
+        // Instanciate the map
+        $('#container-map').highcharts('Map', {
+          chart : {
+            events: {
+              drilldown: function (e) {
+
+                if (!e.seriesOptions) {
+                  var chart = this,
+                      mapKey = 'countries/us/' + e.point.drilldown + '-all',
+                  // Handle error, the timeout is cleared on success
+                      fail = setTimeout(function () {
+                        if (!Highcharts.maps[mapKey]) {
+                          chart.showLoading('<i class="icon-frown"></i> Failed loading ' + e.point.name);
+
+                          fail = setTimeout(function () {
+                            chart.hideLoading();
+                          }, 1000);
+                        }
+                      }, 3000);
+
+                  // Show the spinner
+                  chart.showLoading('<i class="icon-spinner icon-spin icon-3x"></i>'); // Font Awesome spinner
+
+                  // Load the drilldown map
+                  $.getScript('https://code.highcharts.com/mapdata/' + mapKey + '.js', function () {
+
+                  var drillMapData = Highcharts.maps[mapKey],
+                      drillMyData = Highcharts.geojson(Highcharts.maps[mapKey]);
+
+                    // Set a non-random bogus value
+                    $.each(drillMyData, function (i) {
+                      this['hc-key'] = this.properties['hc-key'];
+                      this.value = i;
+                    });
+
+                    // Hide loading and add series
+                    chart.hideLoading();
+                    clearTimeout(fail);
+
+                    if(e.point.name == "California") {
+                      chart.addSeriesAsDrilldown(e.point, {
+                        name: e.point.name,
+                        data: drillMyData,
+                        mapData: drillMapData,
+                        joinBy: 'hc-key',
+                        dataLabels: {
+                          enabled: false,
+                          format: '{point.name}'
+                        },
+                        showInLegend: false
+                      });
+
+                      tempSeries = chart.addSeries({
+                        id: 'points',
+                        type: 'mappoint',
+                        name: 'Wings',
+                        color: Highcharts.getOptions().colors[8],
+                        data: [{
+                          name: '163rd Attack Wing',
+                          lat: 33.9431,
+                          lon: -117.2283
+                        }, {
+                          name: '144th Fighter Wing',
+                          lat: 36.75,
+                          lon: -119.7667
+                        }, {
+                          name: '146th Air Lift Wing',
+                          lat: 34.0161,
+                          lon: -119.8039
+                        }, {
+                          name: '129th Rescue Wing',
+                          lat: 37.3894,
+                          lon: -122.0819
+                        }, {
+                          name: '195th Wing',
+                          lat: 39.1347,
+                          lon: -121.6261
+                        }],
+                        showInLegend: false
+                      });
+                    }else{
+                      chart.addSeriesAsDrilldown(e.point, {
+                        name: e.point.name,
+                        data: drillMyData,
+                        dataLabels: {
+                          enabled: false,
+                          format: '{point.name}'
+                        },
+                        showInLegend: false
+                      })
+                    }
+                  }, true);
+                }
+
+                this.setTitle(null, { text: e.point.name });
+              },
+              drillup: function () {
+                if(this.get('points')){
+                  tempSeries.remove(false);
+                }
+                this.setTitle(null, { text: '' });
+              }
+            }
+          },
+
+          title : {
+            text : ''
+          },
+
+          subtitle: {
+            text: '',
+            floating: true,
+            align: 'right',
+            y: 50,
+            style: {
+              fontSize: '16px'
+            }
+          },
+
+          credits: {
+            enabled: false
+          },
+
+          colors: [
+              '#d3d3d3'
+          ],
+
+          legend: small ? {} : {
+            layout: 'vertical',
+            align: 'right',
+            verticalAlign: 'middle'
+          },
+
+          mapNavigation: {
+            enabled: false,
+            buttonOptions: {
+              verticalAlign: 'bottom'
+            }
+          },
+
+          plotOptions: {
+            map: {
+              states: {
+                hover: {
+                  color: '#EEDD66'
+                }
+              },
+              tooltip: {
+                headerFormat: '<span style="font-size: 10px">{point.key}</span><br/>',
+                pointFormat: 'CCIP: {point.value}<br/>SIP: {point.value}<br/>'
+              }
+            }
+          },
+
+         series: [{
+           data: myData,
+           mapData: mapData,
+           joinBy: 'hc-key',
+           name: 'USA',
+           dataLabels: {
+             enabled: true,
+             format: '{point.options.postal-code}'
+           },
+           showInLegend: false
+          }],
+
+          drilldown:  {
+           activeDataLabelStyle: {
+              color: '#FFFFFF',
+              textDecoration: 'none',
+              textShadow: '0 0 3px #000000'
+            },
+           drillUpButton: {
+              relativeTo: 'spacingBox',
+              position: {
+                x: 0,
+                y: 60
+              }
+            }
+          }
+        });
+
+
+      });
+    </script>
+
+<% end %>

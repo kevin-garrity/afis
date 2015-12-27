@@ -9,12 +9,12 @@
 //= require jvectormap/jquery-jvectormap-world-mill-en.js
 //= require toastr/toastr.min.js
 
+//= require proj4js/proj4.js
 //= require highstock/highstock.js
 //= require highmaps/modules/map.js
 //= require highmaps/modules/data.js
 //= require highmaps/modules/drilldown.js
 //= require highmaps/mapdata/us-all.js
-//= require highmaps/modules/exporting.js
 //= require highcharts/highcharts-more.js
 //= require highcharts/modules/solid-gauge.js
 

@@ -1,0 +1,285 @@
+      <div class="ibox float-e-margins">
+        <div class="ibox-title">
+          <h1>Inspections </h1>
+
+        </div>
+        <div class="ibox-content">
+
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="tabs-container">
+                <ul class="nav nav-tabs">
+                  <li class="active"><a data-toggle="tab" href="#tab-1"> Wing-Wide</a></li>
+                  <li class=""><a data-toggle="tab" href="#tab-2">By-Law</a></li>
+                  <li class=""><a data-toggle="tab" href="#tab-3">Exercises</a></li>
+                  <li class=""><a data-toggle="tab" href="#tab-4">Unit</a></li>
+                </ul>
+                <div class="tab-content">
+                  <div id="tab-1" class="tab-pane active">
+                    <div class="panel-body">
+                      <div class="table-responsive">
+                        <table class="footable table table-stripped table-bordered table-hover">
+                          <thead>
+                          <tr>
+                            <th class="footable-sorted-desc">Program</th>
+                            <th>Status</th>
+                            <th class="footable-sorted-desc">Deficiencies</th>
+                            <th class="footable-sorted-desc">Inspection Date</th>
+                            <th>Program Manager</th>
+                          </tr>
+                          </thead>
+                          <tbody>
+
+                          <tr>
+                            <td>Training</td>
+                            <td><span class="label label-primary">Outstanding</span></td>
+                            <td>8</td>
+                            <td>1/1/2015</td>
+                            <td><a href="<%= url_for :controller => 'appviews', :action => 'profile_two' %>">Adam Smith</a></td>
+                          </tr>
+
+                          <tr>
+                            <td>DRRS</td>
+                            <td><span class="label label-primary">Highly Effective</span></td>
+                            <td>4</td>
+                            <td>3/2/2014</td>
+                            <td><a href="<%= url_for :controller => 'appviews', :action => 'profile_two' %>">Mary Jones</a></td>
+                          </tr>
+
+                          <tr>
+                            <td>Fitness</td>
+                            <td><span class="label label-primary">Effective</span></td>
+                            <td>4</td>
+                            <td>1/1/2015</td>
+                            <td><a href="<%= url_for :controller => 'appviews', :action => 'profile_two' %>">Adam Smith</a></td>
+                          </tr>
+
+                          <tr>
+                            <td>DTS</td>
+                            <td><span class="label label-warning">Marginally Effective</span></td>
+                            <td>2</td>
+                            <td>1/1/2015</td>
+                            <td><a href="<%= url_for :controller => 'appviews', :action => 'profile_two' %>">John Smith</a></td>
+                          </tr>
+
+                          <tr>
+                            <td>SORTS</td>
+                            <td><span class="label label-danger">Ineffective</span></td>
+                            <td>0</td>
+                            <td>1/1/2015</td>
+                            <td><a href="<%= url_for :controller => 'appviews', :action => 'profile_two' %>">Mary Williams</a></td>
+                          </tr>
+                         </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="tab-2" class="tab-pane">
+                    <div class="panel-body">
+                      <div class="table-responsive">
+                        <table class="footable table table-striped table-bordered table-hover">
+                          <thead>
+                          <tr>
+
+                            <th class="footable-sorted-desc">Program</th>
+                            <th>Status</th>
+                            <th class="footable-sorted-desc">Deficiencies</th>
+                            <th class="footable-sorted-desc">Inspection Date</th>
+                            <th>Program Manager</th>
+                          </tr>
+                          </thead>
+                          <tbody>
+
+                          <tr>
+                            <td>Suicide Prevention</td>
+                            <td><span class="label label-danger">Non Compliant</span></td>
+                            <td>8</td>
+                            <td>1/1/2015</td>
+                            <td><a href="<%= url_for :controller => 'appviews', :action => 'profile_two' %>">Adam Smith</a></td>
+                          </tr>
+
+                          <tr>
+                            <td>Sexual Assault Prevention</td>
+                            <td><span class="label label-warning">Comply with Comments</span></td>
+                            <td>4</td>
+                            <td>3/2/2014</td>
+                            <td><a href="<%= url_for :controller => 'appviews', :action => 'profile_two' %>">Mary Jones</a></td>
+                          </tr>
+
+                          <tr>
+                            <td>Trafficking Persons</td>
+                            <td><span class="label-primary">Compliant</span></td>
+                            <td>4</td>
+                            <td>1/1/2015</td>
+                            <td><a href="<%= url_for :controller => 'appviews', :action => 'profile_two' %>">Adam Smith</a></td>
+                          </tr>
+
+                          <tr>
+                            <td>Voting Assistance</td>
+                            <td><span class="label label-primary">Compliant</span></td>
+                            <td>2</td>
+                            <td>1/1/2015</td>
+                            <td><a href="<%= url_for :controller => 'appviews', :action => 'profile_two' %>">John Smith</a></td>
+                          </tr>
+
+                          <tr>
+                            <td>Privacy Act</td>
+                            <td><span class="label label-primary">Compliant</span></td>
+                            <td>0</td>
+                            <td>1/1/2015</td>
+                            <td><a href="<%= url_for :controller => 'appviews', :action => 'profile_two' %>">Joana Ivy</a></td>
+                          </tr>
+
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="tab-3" class="tab-pane">
+                    <div class="panel-body">
+                      <div class="table-responsive">
+                        <table class="footable table table-striped table-bordered table-hover">
+                          <thead>
+                          <tr>
+
+                            <th>Exercise</th>
+                            <th>Grade</th>
+                            <th class="footable-sorted-desc">Deficiencies</th>
+                            <th class="footable-sorted-desc">Recommended Improvements</th>
+                            <th class="footable-sorted-desc">Exercise Date</th>
+                          </tr>
+                          </thead>
+                          <tbody>
+
+                          <tr>
+                            <td>Earthquake Exercise</td>
+                            <td><span class="label label-primary">Outstanding</span></td>
+                            <td>8</td>
+                            <td>15</td>
+                            <td>1/1/2015</td>
+                          </tr>
+
+                          <tr>
+                            <td>CBRN Exercise</td>
+                            <td><span class="label label-primary">Highly Effective</span></td>
+                            <td>3</td>
+                            <td>5</td>
+                            <td>1/1/2015</td>
+                          </tr>
+
+                          <tr>
+                            <td>Active Shooter TTX Exercise</td>
+                            <td><span class="label label-primary">Effective</span></td>
+                            <td>8</td>
+                            <td>2</td>
+                            <td>1/1/2015</td>
+                          </tr>
+
+                          <tr>
+                            <td>Civil Engineering FTX Exercise</td>
+                            <td><span class="label label-warning">Marginally Effective</span></td>
+                            <td>4</td>
+                            <td>1</td>
+                            <td>1/1/2015</td>
+                          </tr>
+
+                          <tr>
+                            <td>SCLA Security Forces Exercises</td>
+                            <td><span class="label label-danger">Ineffective</span></td>
+                            <td>3</td>
+                            <td>0</td>
+                            <td>1/1/2015</td>
+                          </tr>
+
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="tab-4" class="tab-pane">
+                    <div class="panel-body">
+                      <div class="table-responsive">
+                        <table class="footable table table-striped table-bordered table-hover">
+                          <thead>
+                          <tr>
+
+                            <th>Unit</th>
+                            <th>Grade</th>
+                            <th class="footable-sorted-desc">Deficiencies</th>
+                            <th class="footable-sorted-desc">Inspection Date</th>
+                            <th>Self-Assessment Program Manager</th>
+                          </tr>
+                          </thead>
+                          <tbody>
+
+                          <tr>
+                            <td>163 CF Communications Inspection</td>
+                            <td><span class="label label-primary">Outstanding</span></td>
+                            <td>8</td>
+                            <td>1/1/2015</td>
+                            <td><a href="<%= url_for :controller => 'appviews', :action => 'profile_two' %>">Joana Ivy</a></td>
+                          </tr>
+
+                          <tr>
+                            <td>163 OG CII Training Inspection</td>
+                            <td><span class="label label-primary">Highly Effective</span></td>
+                            <td>4</td>
+                            <td>3/2/2014</td>
+                            <td><a href="<%= url_for :controller => 'appviews', :action => 'profile_two' %>">Alex Williams</a></td>
+                          </tr>
+
+                          <tr>
+                            <td>163 MXG Conversation Inspection</td>
+                            <td><span class="label label-primary">Effective</span></td>
+                            <td>4</td>
+                            <td>1/1/2015</td>
+                            <td><a href="<%= url_for :controller => 'appviews', :action => 'profile_two' %>">Harry Adams</a></td>
+                          </tr>
+
+                          <tr>
+                            <td>147 CBCS SATCOM Inspection</td>
+                            <td><span class="label label-warning">Marginally Effective</span></td>
+                            <td>2</td>
+                            <td>1/1/2015</td>
+                            <td><a href="<%= url_for :controller => 'appviews', :action => 'profile_two' %>">Adam Smith</a></td>
+                          </tr>
+
+                          <tr>
+                            <td>160 AS Intel Oversight Inspection</td>
+                            <td><span class="label label-danger">Ineffective</span></td>
+                            <td>0</td>
+                            <td>1/1/2015</td>
+                            <td><a href="<%= url_for :controller => 'appviews', :action => 'profile_two' %>">Joana Ivy</a></td>
+                          </tr>
+
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+<% content_for :javascript do %>
+
+    <script type="text/javascript">
+      $(function () {
+
+        $('.footable').footable();
+        $('.footable2').footable();
+
+      });
+    </script>
+
+<% end %>
