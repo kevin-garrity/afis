@@ -29,22 +29,15 @@
                     <li class="<%= is_active_action('selfassess') %>"><%= link_to "Self Assessment", dashboards_selfassess_path %></li>
                     <li class="<%= is_active_action('riskassess') %>"><%= link_to "Risk Assessment", dashboards_riskassess_path %></li>
                     <li><a href="#">CIMB</a></li>
-                    <li>
-                      <a href="#">Analysis<span class="fa arrow"></span></a>
-                      <ul class="nav nav-third-level">
-                        <li>
-                          <a href="#">Overview</a>
-                        </li>
-                        <li>
-                          <a href="#">Deficiency Flow</a>
-                        </li>
-                        <li>
-                          <a href="#">Root Cause</a>
-                        </li>
-                        <li>
-                          <a href="#">Major Graded Areas</a>
-                        </li>
+                    <li class="<%= is_active_controller('analysis') %>">
+                      <a href=""><span class="nav-label">Analysis</span><span class="fa arrow"></span></a>
+                      <ul class="nav nav-third-level collapse <%= is_active_controller('analysis') %>">
+                        <li class="<%= is_active_action('overview') %>"><%= link_to "Overview", analysis_overview_path %></li>
+                        <li class="<%= is_active_action('major') %>"><%= link_to "Major Graded Areas", analysis_major_path %></li>
+                        <li class="<%= is_active_action('root') %>"><%= link_to "Root Cause",analysis_root_path %></li>
+                        <li class="<%= is_active_action('flow') %>"><%= link_to "Deficiency Flow", analysis_flow_path %></li>
                       </ul>
+
                     </li>
                 </ul>
             </li>
@@ -62,8 +55,8 @@
             </li>
 
 
-
 <!--
+
             <li class="<%= is_active_controller('layoutsoptions') %>">
                 <%= link_to layoutsoptions_index_path do %>
                 <i class="fa fa-diamond"></i> <span class="nav-label">Layouts</span> <span class="label label-primary pull-right">NEW</span>

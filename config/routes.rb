@@ -13,7 +13,6 @@ Myapp::Application.routes.draw do
   get "dashboards/dashboard_3"
   get "dashboards/overview"
   get "dashboards/dashboard_5"
-  get "dashboards/_map"
 
   get "layoutsoptions/index"
   get "layoutsoptions/off_canvas"
@@ -128,5 +127,10 @@ Myapp::Application.routes.draw do
   get "cssanimations/index"
 
   get "landing/index"
+
+  get "analysis/overview"
+  get "analysis/major"
+  get "analysis/root"
+  get "analysis/flow"
 
 end

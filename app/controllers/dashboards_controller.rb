@@ -19,5 +19,16 @@ class DashboardsController < ApplicationController
   def dashboard_5
   end
 
+  def overview
+  end
+
+  def inspection
+  end
+
+  def selfassess
+  end
+
+  def riskassess
+  end
 
 end

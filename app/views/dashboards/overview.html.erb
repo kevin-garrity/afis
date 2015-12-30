@@ -6,7 +6,7 @@
       <%= render 'dashboards/map' %>
     </div>
 
-    <div class="col-lg-4" style="padding-bottom: 21px">
+    <div class="col-lg-4" style="padding-bottom:15px;">
       <div class="ibox float-e-margins">
         <div class="ibox-title">
           <h1>Program Status</h1>
@@ -37,7 +37,37 @@
 
     <script type="text/javascript">
       $(function () {
-      var value1 = 'Effective', value2 = 'No Risk';
+      var ccip = ['Outstanding','Highly Effective','Effective','Marginally Effective','Ineffective'],
+          sip = ['High Risk','Elevated Risk','Moderate Risk','Low Risk','No Risk'],
+          ccipstr, sipstr, ccipval, sipval;
+
+          ccipval = Math.round(Math.random() * 100);
+
+        if (ccipval <= 15) {
+          ccipstr = ccip[4];
+        } else if (ccipval > 15 && ccipval <= 35) {
+          ccipstr = ccip[3];
+        } else if (ccipval > 35 && ccipval <= 65){
+          ccipstr = ccip[2];
+        } else if (ccipval > 65 && ccipval <= 85){
+          ccipstr = ccip[1];
+        } else{
+          ccipstr = ccip[0];
+        }
+
+        sipval = Math.round(Math.random() * 100);
+
+        if (sipval <= 15) {
+          sipstr = sip[4];
+        } else if (sipval > 15 && sipval <= 35) {
+          sipstr = sip[3];
+        } else if (sipval > 35 && sipval <= 65){
+          sipstr = sip[2];
+        } else if (sipval > 65 && sipval <= 85){
+          sipstr = sip[1];
+        } else{
+          sipstr = sip[0];
+        }
 
       var gaugeOptions = {
 
@@ -102,7 +132,9 @@
             [0.1, '#DF5353'], // red
             [0.5, '#DDDF0D'], // yellow
             [0.9, '#55BF3B'] // green
-          ]
+          ],
+          showFirstLabel: false,
+          showLastLabel: false
         },
 
         credits: {
@@ -111,9 +143,9 @@
 
         series: [{
           name: 'CCIP',
-          data: [0],
+          data: [ccipval],
           dataLabels: {
-            format: '<div style="text-align:center; font-size: 20px; color: #555555; font-weight: normal;"><span>{y}</span><br/><span>' + value1 + '</span></div>'
+            format: '<div style="text-align:center; font-size: 18px; color: #555555; font-weight: normal;"><span>{y}</span><br/><span>' + ccipstr + '</span></div>'
           },
           tooltip: {
             valueSuffix: ' %'
@@ -134,7 +166,9 @@
             [0.1, '#55BF3B'], // green
             [0.5, '#DDDF0D'], // yellow
             [0.9, '#DF5353'] // red
-          ]
+          ],
+          showFirstLabel: false,
+          showLastLabel: false
         },
 
         credits: {
@@ -142,9 +176,9 @@
         },
         series: [{
           name: 'SIP',
-          data: [0],
+          data: [sipval],
           dataLabels: {
-            format: '<div style="text-align:center; font-size: 20px; color: #555555; font-weight: normal;"><span>{y}</span><br/><span>' + value2 + '</span></div>'
+            format: '<div style="text-align:center; font-size: 18px; color: #555555; font-weight: normal;"><span>{y}</span><br/><span>' + sipstr + '</span></div>'
           },
           tooltip: {
             valueSuffix: ' %'
@@ -152,40 +186,6 @@
         }]
 
       }));
-
-      // Bring life to the dials
-      setTimeout(function () {
-        
-        // Speed
-        var chart = $('#container-ccip').highcharts(),
-            point,
-            newVal,
-            inc;
-
-        if (chart) {
-          point = chart.series[0].points[0];
-          inc = Math.round((Math.random() - 0.5) * 100);
-          newVal = point.y + inc;
-
-          if (newVal < 0 || newVal > 100) {
-            newVal = point.y - inc;
-          }
-          point.update(newVal);
-        }
-
-        // RPM
-        chart = $('#container-sip').highcharts();
-        if (chart) {
-          point = chart.series[0].points[0];
-          inc = Math.round((Math.random() - 0.5) * 100);
-          newVal = point.y + inc;
-
-          if (newVal < 0 || newVal > 100) {
-            newVal = point.y - inc;
-          }
-          point.update(newVal);
-        }
-      }, 1000);
 
       });
     </script>

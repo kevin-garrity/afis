@@ -1,0 +1,37 @@
+//= require flot/jquery.flot.js
+//= require flot/jquery.flot.tooltip.min.js
+//= require flot/jquery.flot.resize.js
+//= require flot/jquery.flot.pie.js
+//= require flot/jquery.flot.time.js
+//= require flot/jquery.flot.spline.js
+//= require sparkline/jquery.sparkline.min.js
+//= require jvectormap/jquery-jvectormap-2.0.2.min.js
+//= require jvectormap/jquery-jvectormap-world-mill-en.js
+//= require toastr/toastr.min.js
+
+//= require proj4js/proj4.js
+//= require highstock/highstock.js
+//= require highmaps/modules/map.js
+//= require highmaps/modules/data.js
+//= require highmaps/modules/drilldown.js
+//= require highmaps/mapdata/us-all.js
+//= require highcharts/highcharts-more.js
+//= require highcharts/modules/solid-gauge.js
+//= require highstock/chartData/aapl.js
+//= require highstock/chartData/goog.js
+//= require highstock/chartData/msft.js
+//= require highcharts/modules/data.js
+//= require highcharts/modules/drilldown.js
+
+//= require iCheck/icheck.min.js
+//= require jeditable/jquery.jeditable.js
+//= require dataTables/jquery.dataTables.js
+//= require dataTables/dataTables.bootstrap.js
+//= require dataTables/dataTables.responsive.js
+//= require dataTables/dataTables.tableTools.min.js
+//= require jqGrid/i18n/grid.locale-el.js
+//= require jqGrid/jquery.jqGrid.min.js
+//= require jquery-ui/jquery-ui.min.js
+//= require footable/footable.all.min.js
+//= require video/responsible-video.js
+//= require sparkline/jquery.sparkline.min.js

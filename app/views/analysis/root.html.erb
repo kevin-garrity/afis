@@ -1,0 +1,370 @@
+<div class="wrapper wrapper-content">
+
+  <div class="row">
+  <div class="col-lg-8">
+      <%= render 'dashboards/map' %>
+</div>
+    <div class="col-lg-4">
+      <div class="ibox float-e-margins">
+        <div class="ibox-title">
+          <h1>Top 10</h1>
+        </div>
+        <div class="ibox-content">
+
+          <table class="table table-stripped table-bordered" data-page-size="8" data-filter=#filter  style="font-size: large; height: 435px;">
+            <thead>
+            <tr>
+              <th>Type</th>
+              <th>Name</th>
+              <th>Risk %</th>
+              <th>Risk Level</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <td>By-Law</td>
+              <td>Suicide Prevention</td>
+              <td>87%</td>
+              <td><span class="label label-danger">High Risk</span></td>
+            </tr>
+            <tr>
+              <td>By-Law</td>
+              <td>Records Management</td>
+              <td>65%</td>
+              <td><span class="label label-warning">Elevated Risk</span></td>
+            </tr>
+            <tr>
+              <td>Unit</td>
+              <td>Unit 37</td>
+              <td>57%</td>
+              <td><span class="label label-warning">Moderate Risk</span></td>
+            </tr>
+            <tr>
+              <td>Unit</td>
+              <td>Unit 99</td>
+              <td>45%</td>
+              <td><span class="label label-warning">Moderate Risk</span></td>
+            </tr>
+            <tr>
+              <td>Checklist</td>
+              <td>Checklist 11</td>
+              <td>39%</td>
+              <td><span class="label label-warning">Moderate Risk</span></td>
+            </tr>
+            <tr>
+              <td>Wing-Wide</td>
+              <td>Fitness</td>
+              <td>37%</td>
+              <td><span class="label label-warning">Moderate Risk</span></td>
+            </tr>
+            <tr>
+              <td>Checklist</td>
+              <td>Checklist 454</td>
+              <td>28%</td>
+              <td><span class="label label-primary">Low Risk</span></td>
+            </tr>
+            <tr>
+              <td>By-Law</td>
+              <td>Trafficking Persons</td>
+              <td>28%</td>
+              <td><span class="label label-primary">Low Risk</span></td>
+            </tr>
+            <tr>
+              <td>Unit</td>
+              <td>Unit 34</td>
+              <td>19%</td>
+              <td><span class="label label-default">No Risk</span></td>
+            </tr>
+            <tr>
+              <td>Checklist</td>
+              <td>Checklist 25</td>
+              <td>7%</td>
+              <td><span class="label label-default">No Risk</span></td>
+            </tr>
+            </tbody>
+          </table>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+
+    <div class="col-lg-12">
+      <div class="ibox float-e-margins">
+        <div class="ibox-title">
+          <h1>Risk Assessment </h1>
+
+        </div>
+        <div class="ibox-content">
+
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="tabs-container">
+                <ul class="nav nav-tabs">
+                  <li class="active"><a data-toggle="tab" href="#tab-1"> Wing-Wide</a></li>
+                  <li class=""><a data-toggle="tab" href="#tab-2">By-Law</a></li>
+                  <li class=""><a data-toggle="tab" href="#tab-3">Checklists</a></li>
+                  <li class=""><a data-toggle="tab" href="#tab-4">Units</a></li>
+                </ul>
+                <div class="tab-content">
+                  <div id="tab-1" class="tab-pane active">
+                    <div class="panel-body">
+                      <div class="table-responsive">
+                        <table class="footable table table-stripped table-bordered table-hover">
+                          <thead>
+                          <tr>
+                            <th>Program</th>
+                            <th>Incomplete</th>
+                            <th>Noncompliant</th>
+                            <th>Observation Ratio</th>
+                            <th>Avg Checklist Risk</th>
+                            <th class="footable-sorted-desc">Program Risk</th>
+                          </tr>
+                          </thead>
+                          <tbody>
+
+                          <tr>
+                            <td>Fitness</td>
+                            <td>34%</td>
+                            <td>12%</td>
+                            <td>23%</td>
+                            <td>45%</td>
+                            <td><span class="label label-danger">High Risk</span></td>
+                          </tr>
+                          <tr>
+                            <td>SORTS</td>
+                            <td>24%</td>
+                            <td>10%</td>
+                            <td>21%</td>
+                            <td>40%</td>
+                            <td><span class="label label-warning">Moderate Risk</span></td>
+                          </tr>
+                          <tr>
+                            <td>DRRS</td>
+                            <td>34%</td>
+                            <td>12%</td>
+                            <td>23%</td>
+                            <td>45%</td>
+                            <td><span class="label label-primary">Low Risk</span></td>
+                          </tr>
+                          <tr>
+                            <td>Family Core Plan</td>
+                            <td>34%</td>
+                            <td>12%</td>
+                            <td>23%</td>
+                            <td>45%</td>
+                            <td><span class="label label-primary">Low Risk</span></td>
+                          </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="tab-2" class="tab-pane">
+                    <div class="panel-body">
+                      <div class="table-responsive">
+                        <table class="footable table table-striped table-bordered table-hover">
+                          <thead>
+                          <tr>
+                            <th>Program</th>
+                            <th>Incomplete</th>
+                            <th>Noncompliant</th>
+                            <th>Observation Ratio</th>
+                            <th>Avg Checklist Risk</th>
+                            <th class="footable-sorted-desc">Program Risk</th>
+                          </tr>
+                          </thead>
+                          <tbody>
+
+                          <tr>
+                            <td>Records Management</td>
+                            <td>34%</td>
+                            <td>12%</td>
+                            <td>23%</td>
+                            <td>45%</td>
+                            <td><span class="label label-danger">High Risk</span></td>
+                          </tr>
+                          <tr>
+                            <td>Trafficking Persons</td>
+                            <td>24%</td>
+                            <td>10%</td>
+                            <td>21%</td>
+                            <td>40%</td>
+                            <td><span class="label label-primary">Moderate Risk</span></td>
+                          </tr>
+                          <tr>
+                            <td>Worting Assistance</td>
+                            <td>34%</td>
+                            <td>12%</td>
+                            <td>23%</td>
+                            <td>45%</td>
+                            <td><span class="label label-primary">Low Risk</span></td>
+                          </tr>
+                          <tr>
+                            <td>Privacy Act</td>
+                            <td>34%</td>
+                            <td>12%</td>
+                            <td>23%</td>
+                            <td>45%</td>
+                            <td><span class="label label-primary">Low Risk</span></td>
+                          </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="tab-3" class="tab-pane">
+                    <div class="panel-body">
+                      <div class="table-responsive">
+                        <table class="footable table table-striped table-bordered table-hover">
+                          <thead>
+                          <tr>
+                            <th>Checklist</th>
+                            <th>Unit</th>
+                            <th>Incomplete</th>
+                            <th>Noncompliant</th>
+                            <th>Observation Ratio</th>
+                            <th>Program</th>
+                            <th class="footable-sorted-desc">Checklist Risk</th>
+                          </tr>
+                          </thead>
+                          <tbody>
+
+                          <tr>
+                            <td>Checklist 43</td>
+                            <td>Unit 12</td>
+                            <td>12%</td>
+                            <td>34%</td>
+                            <td>10%</td>
+                            <td>By-Law</td>
+                            <td><span class="label label-danger">High Risk</span></td>
+                          </tr>
+                          <tr>
+                            <td>Checklist 43</td>
+                            <td>Unit 12</td>
+                            <td>12%</td>
+                            <td>34%</td>
+                            <td>10%</td>
+                            <td>Wing-Wide</td>
+                            <td><span class="label label-warning">Moderate Risk</span></td>
+                          </tr>
+                          <tr>
+                            <td>Checklist 43</td>
+                            <td>Unit 12</td>
+                            <td>12%</td>
+                            <td>34%</td>
+                            <td>10%</td>
+                            <td>N/A</td>
+                            <td><span class="label label-warning">Moderate Risk</span></td>
+                          </tr>
+                          <tr>
+                            <td>Checklist 43</td>
+                            <td>Unit 12</td>
+                            <td>12%</td>
+                            <td>34%</td>
+                            <td>10%</td>
+                            <td>N/A</td>
+                            <td><span class="label label-primary">Low Risk</span></td>
+                          </tr>
+                          <tr>
+                            <td>Checklist 43</td>
+                            <td>Unit 12</td>
+                            <td>12%</td>
+                            <td>34%</td>
+                            <td>10%</td>
+                            <td>Wing-Wide</td>
+                            <td><span class="label label-default">No Risk</span></td>
+                          </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="tab-4" class="tab-pane">
+                    <div class="panel-body">
+                      <div class="table-responsive">
+                        <table class="footable table table-striped table-bordered table-hover">
+                          <thead>
+                          <tr>
+                            <th>Unit</th>
+                            <th>Incomplete</th>
+                            <th>Noncompliant</th>
+                            <th>Observation Ratio</th>
+                            <th>Avg Checklist Risk</th>
+                            <th class="footable-sorted-desc">Unit Risk</th>
+                          </tr>
+                          </thead>
+                          <tbody>
+
+                          <tr>
+                            <td>Unit 12</td>
+                            <td>34%</td>
+                            <td>12%</td>
+                            <td>23%</td>
+                            <td>45%</td>
+                            <td><span class="label label-danger">High Risk</span></td>
+                          </tr>
+                          <tr>
+                            <td>Unit 12</td>
+                            <td>24%</td>
+                            <td>10%</td>
+                            <td>21%</td>
+                            <td>40%</td>
+                            <td><span class="label label-warning">Elevated Risk</span></td>
+                          </tr>
+                          <tr>
+                            <td>Unit 12</td>
+                            <td>34%</td>
+                            <td>12%</td>
+                            <td>23%</td>
+                            <td>45%</td>
+                            <td><span class="label label-warning">Moderate Risk</span></td>
+                          </tr>
+                          <tr>
+                            <td>Unit 12</td>
+                            <td>34%</td>
+                            <td>12%</td>
+                            <td>23%</td>
+                            <td>45%</td>
+                            <td><span class="label label-primary">Low Risk</span></td>
+                          </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+</div>
+
+<% content_for :javascript do %>
+
+    <script type="text/javascript">
+      $(function () {
+
+        $('.footable').footable();
+        $('.footable2').footable();
+
+      });
+    </script>
+
+<% end %>
