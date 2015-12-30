@@ -88,7 +88,11 @@
                           enabled: false,
                           format: '{point.name}'
                         },
-                        showInLegend: false
+                        showInLegend: false,
+                        borderColor: '#d3d3d3',
+                        borderWidth: -1,
+                        enableMouseTracking: false
+
                       });
 
                       tempSeries = chart.addSeries({
@@ -117,7 +121,11 @@
                           lat: 39.1347,
                           lon: -121.6261
                         }],
-                        showInLegend: false
+                        showInLegend: false,
+                        tooltip: {
+                          headerFormat: '<span style="font-size: 16px">{point.key}</span><br/>',
+                          pointFormat: 'CCIP: Outstanding<br/>SIP: No Risk<br/>'
+                        }
                       });
                     }else{
                       chart.addSeriesAsDrilldown(e.point, {
@@ -127,7 +135,10 @@
                           enabled: false,
                           format: '{point.name}'
                         },
-                        showInLegend: false
+                        showInLegend: false,
+                        borderColor: '#d3d3d3',
+                        borderWidth: -1,
+                        enableMouseTracking: false
                       })
                     }
                   }, true);
@@ -183,12 +194,15 @@
             map: {
               states: {
                 hover: {
-                  color: '#EEDD66'
-                }
+                  enabled: false
+                },
+               normal: {
+                 animation: false
+               }
               },
               tooltip: {
-                headerFormat: '<span style="font-size: 10px">{point.key}</span><br/>',
-                pointFormat: 'CCIP: {point.value}<br/>SIP: {point.value}<br/>'
+                headerFormat: '<span style="font-size: 16px">{point.key}</span><br/>',
+                pointFormat: 'CCIP: Outstanding<br/>SIP: No Risk<br/>'
               }
             }
           },

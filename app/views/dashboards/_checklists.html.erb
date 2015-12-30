@@ -15,43 +15,9 @@
 
     <script type="text/javascript">
       $(function () {
+        var rand1, rand2;
 
-        var colors = Highcharts.getOptions().colors,
-            categories = ['Compliance'],
-            checkdata = [{
-              y: 56.33,
-              color: colors[0],
-              drilldown: {
-                name: 'Compliance',
-                categories: ['', '', ''],
-                data: [70, 10, 20],
-                color: colors[0]
-              }
-            }],
-            versionsData = [],
-            i,
-            j,
-            dataLen = checkdata.length,
-            drillDataLen,
-            brightness;
-
-
-        // Build the data arrays
-        for (i = 0; i < dataLen; i += 1) {
-
-        // add version data
-          drillDataLen = checkdata[i].drilldown.data.length;
-          for (j = 0; j < drillDataLen; j += 1) {
-            brightness = 0.2 - (j / drillDataLen) / 5;
-            versionsData.push({
-              name: checkdata[i].drilldown.categories[j],
-              y: checkdata[i].drilldown.data[j],
-              color: Highcharts.Color(checkdata[i].color).brighten(brightness).get()
-            });
-          }
-        }
-
-        // Create the chart
+        rand1 = Math.round(Math.random() * 100);
         $('#container-checklist').highcharts({
           chart: {
             type: 'pie',
@@ -61,8 +27,8 @@
             text: ''
           },
           subtitle: {
-            text: 'Compliance',
-            align: 'top'
+            text: '<span style="font-size: 20px;">Compliance</span>',
+            align: 'center'
           },
           tooltip: {
             enabled: false
@@ -82,12 +48,20 @@
 
           series: [{
             name: 'Compliance',
-            data: versionsData,
+            data: [{
+              y: rand1,
+              color: '#55BF3B'
+            },{
+              y: 100 - rand1,
+              color: '#ffffff'
+            }],
             size: '140%',
             innerSize: '60%',
+            enableMouseTracking: false
           }]
         });
 
+        rand2 = Math.round(Math.random() * 100);
       $('#container-completion').highcharts({
         chart: {
           type: 'pie',
@@ -100,8 +74,8 @@
           enabled: false
         },
         subtitle: {
-          text: 'Completion',
-          align: 'top'
+          text: '<span style="font-size: 20px;">Completion</span>',
+          align: 'center'
         },
         tooltip: {
           enabled: false
@@ -118,9 +92,16 @@
 
         series: [{
           name: 'Completion',
-          data: versionsData,
+          data: [{
+            y: rand2,
+            color: '#55BF3B'
+          },{
+            y: 100 - rand2,
+            color: '#ffffff'
+        }],
           size: '140%',
           innerSize: '60%',
+          enableMouseTracking: false
         }]
       });
 

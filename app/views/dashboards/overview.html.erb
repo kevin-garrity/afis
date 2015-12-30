@@ -37,6 +37,7 @@
 
     <script type="text/javascript">
       $(function () {
+      var value1 = 'Effective', value2 = 'No Risk';
 
       var gaugeOptions = {
 
@@ -65,11 +66,7 @@
 
         // the value axis
         yAxis: {
-          stops: [
-            [0.1, '#55BF3B'], // green
-            [0.5, '#DDDF0D'], // yellow
-            [0.9, '#DF5353'] // red
-          ],
+
           lineWidth: 0,
           minorTickInterval: null,
           tickPixelInterval: 400,
@@ -100,7 +97,12 @@
           max: 100,
           title: {
             text: 'CCIP'
-          }
+          },
+          stops: [
+            [0.1, '#DF5353'], // red
+            [0.5, '#DDDF0D'], // yellow
+            [0.9, '#55BF3B'] // green
+          ]
         },
 
         credits: {
@@ -109,11 +111,9 @@
 
         series: [{
           name: 'CCIP',
-          data: [40],
+          data: [0],
           dataLabels: {
-            format: '<div style="text-align:center"><span style="font-size:25px;color:' +
-            ((Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black') + '">{y}</span><br/>' +
-            '<span style="font-size:12px;color:silver">Effective</span></div>'
+            format: '<div style="text-align:center; font-size: 20px; color: #555555; font-weight: normal;"><span>{y}</span><br/><span>' + value1 + '</span></div>'
           },
           tooltip: {
             valueSuffix: ' %'
@@ -129,18 +129,22 @@
           max: 100,
           title: {
             text: 'SIP'
-          }
+          },
+          stops: [
+            [0.1, '#55BF3B'], // green
+            [0.5, '#DDDF0D'], // yellow
+            [0.9, '#DF5353'] // red
+          ]
         },
+
         credits: {
           enabled: false
         },
         series: [{
           name: 'SIP',
-          data: [20],
+          data: [0],
           dataLabels: {
-            format: '<div style="text-align:center"><span style="font-size:25px;color:' +
-            ((Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black') + '">{y:.1f}</span><br/>' +
-            '<span style="font-size:12px;color:silver">Low Risk</span></div>'
+            format: '<div style="text-align:center; font-size: 20px; color: #555555; font-weight: normal;"><span>{y}</span><br/><span>' + value2 + '</span></div>'
           },
           tooltip: {
             valueSuffix: ' %'
@@ -151,6 +155,7 @@
 
       // Bring life to the dials
       setTimeout(function () {
+        
         // Speed
         var chart = $('#container-ccip').highcharts(),
             point,
@@ -162,10 +167,9 @@
           inc = Math.round((Math.random() - 0.5) * 100);
           newVal = point.y + inc;
 
-          if (newVal < 0 || newVal > 200) {
+          if (newVal < 0 || newVal > 100) {
             newVal = point.y - inc;
           }
-
           point.update(newVal);
         }
 
@@ -173,16 +177,15 @@
         chart = $('#container-sip').highcharts();
         if (chart) {
           point = chart.series[0].points[0];
-          inc = Math.random() - 0.5;
+          inc = Math.round((Math.random() - 0.5) * 100);
           newVal = point.y + inc;
 
-          if (newVal < 0 || newVal > 5) {
+          if (newVal < 0 || newVal > 100) {
             newVal = point.y - inc;
           }
-
           point.update(newVal);
         }
-      }, 2000);
+      }, 1000);
 
       });
     </script>
