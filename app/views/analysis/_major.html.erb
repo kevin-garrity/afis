@@ -23,21 +23,24 @@
             type: 'column'
           },
           title: {
-            text: 'Browser market shares. January, 2015 to May, 2015'
+            text: ''
           },
           subtitle: {
-            text: 'Click the columns to view versions. Source: <a href="http://netmarketshare.com">netmarketshare.com</a>.'
+            text: ''
           },
           xAxis: {
             type: 'category'
           },
           yAxis: {
             title: {
-              text: 'Total percent market share'
+              text: ''
             }
 
           },
           legend: {
+            enabled: false
+          },
+          credits: {
             enabled: false
           },
           plotOptions: {
@@ -52,218 +55,149 @@
 
           tooltip: {
             headerFormat: '<span style="font-size:11px">{series.name}</span><br>',
-            pointFormat: '<span style="color:{point.color}">{point.name}</span>: <b>{point.y:.2f}%</b> of total<br/>'
+            pointFormat: '<span style="color:{point.color}">{point.name}</span>: <b>{point.y:.2f}%</b><br/>'
           },
 
           series: [{
-            name: 'Brands',
+            name: 'Major Graded Area',
             colorByPoint: true,
             data: [{
-              name: 'Microsoft Internet Explorer',
-              y: 56.33,
-              drilldown: 'Microsoft Internet Explorer'
+              name: 'Managing Resources',
+              y: 25.71,
+              drilldown: 'Managing Resources'
             }, {
-              name: 'Chrome',
-              y: 24.03,
-              drilldown: 'Chrome'
+              name: 'Leadership/Supervision',
+              y: 45.93,
+              drilldown: 'Leadership/Supervision'
             }, {
-              name: 'Firefox',
-              y: 10.38,
-              drilldown: 'Firefox'
+              name: 'Improving the Unit',
+              y: 20,
+              drilldown: 'Improving the Unit'
             }, {
-              name: 'Safari',
-              y: 4.77,
-              drilldown: 'Safari'
-            }, {
-              name: 'Opera',
-              y: 0.91,
-              drilldown: 'Opera'
-            }, {
-              name: 'Proprietary or Undetectable',
-              y: 0.2,
-              drilldown: null
+              name: 'Executing the Mission',
+              y: 8.4,
+              drilldown: 'Executing the Mission'
             }]
           }],
           drilldown: {
             series: [{
-              name: 'Microsoft Internet Explorer',
-              id: 'Microsoft Internet Explorer',
+              name: 'Managing Resources',
+              id: 'Managing Resources',
               data: [
                 [
-                  'v11.0',
-                  24.13
+                  'Equipment',
+                  35
                 ],
                 [
-                  'v8.0',
-                  17.2
+                  'Guidance',
+                  28
                 ],
                 [
-                  'v9.0',
-                  8.11
+                  'Facilities',
+                  33
                 ],
                 [
-                  'v10.0',
-                  5.33
+                  'Airmans Time',
+                  40
                 ],
                 [
-                  'v6.0',
-                  1.06
-                ],
-                [
-                  'v7.0',
-                  0.5
+                  'Funds',
+                  98
                 ]
               ]
             }, {
-              name: 'Chrome',
-              id: 'Chrome',
+              name: 'Leadership/Supervision',
+              id: 'Leadership/Supervision',
               data: [
                 [
-                  'v40.0',
-                  5
+                  'Training',
+                  49
                 ],
                 [
-                  'v41.0',
-                  4.32
+                  'Communication',
+                  56
                 ],
                 [
-                  'v42.0',
-                  3.68
+                  'Unit Training',
+                  11
                 ],
                 [
-                  'v39.0',
-                  2.96
+                  'Individual Training',
+                  70
                 ],
                 [
-                  'v36.0',
-                  2.53
+                  'Discipline',
+                  20
                 ],
                 [
-                  'v43.0',
-                  1.45
+                  'Compliance',
+                  11
                 ],
                 [
-                  'v31.0',
-                  1.24
+                  'System',
+                  69
                 ],
                 [
-                  'v35.0',
-                  0.85
+                  'Feedback',
+                  41
                 ],
                 [
-                  'v38.0',
-                  0.6
+                  'PME',
+                  27
                 ],
                 [
-                  'v32.0',
-                  0.55
-                ],
-                [
-                  'v37.0',
-                  0.38
-                ],
-                [
-                  'v33.0',
-                  0.19
-                ],
-                [
-                  'v34.0',
-                  0.14
-                ],
-                [
-                  'v30.0',
-                  0.14
+                  'Accountability',
+                  64
                 ]
               ]
             }, {
-              name: 'Firefox',
-              id: 'Firefox',
+              name: 'Improving the Unit',
+              id: 'Improving the Unit',
               data: [
                 [
-                  'v35',
-                  2.76
+                  'CCIP',
+                  39
                 ],
                 [
-                  'v36',
-                  2.32
+                  'Data Collection',
+                  42
                 ],
                 [
-                  'v37',
-                  2.31
+                  'Strategic Alignment',
+                  18
                 ],
                 [
-                  'v34',
-                  1.27
+                  'Key Work Processes',
+                  26
                 ],
                 [
-                  'v38',
-                  1.02
+                  'Self-Assessment Program',
+                  21
                 ],
                 [
-                  'v31',
-                  0.33
-                ],
-                [
-                  'v33',
-                  0.22
-                ],
-                [
-                  'v32',
-                  0.15
+                  'Performance Metrics',
+                  36
                 ]
               ]
             }, {
-              name: 'Safari',
-              id: 'Safari',
+              name: 'Executing the Mission',
+              id: 'Executing the Mission',
               data: [
                 [
-                  'v8.0',
-                  2.56
+                  'Wing CC Satisfaction',
+                  24
                 ],
                 [
-                  'v7.1',
-                  0.77
+                  'Right Quality',
+                  17
                 ],
                 [
-                  'v5.1',
-                  0.42
+                  'Right Quantity',
+                  18
                 ],
                 [
-                  'v5.0',
-                  0.3
-                ],
-                [
-                  'v6.1',
-                  0.29
-                ],
-                [
-                  'v7.0',
-                  0.26
-                ],
-                [
-                  'v6.2',
-                  0.17
-                ]
-              ]
-            }, {
-              name: 'Opera',
-              id: 'Opera',
-              data: [
-                [
-                  'v12.x',
-                  0.34
-                ],
-                [
-                  'v28',
-                  0.24
-                ],
-                [
-                  'v27',
-                  0.17
-                ],
-                [
-                  'v29',
-                  0.16
+                  'Right Time',
+                  17
                 ]
               ]
             }]

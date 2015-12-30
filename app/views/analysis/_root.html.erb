@@ -18,31 +18,28 @@
     <script type="text/javascript">
       $(function () {
         // Age categories
-        var categories = ['0-4', '5-9', '10-14', '15-19',
-          '20-24', '25-29', '30-34', '35-39', '40-44',
-          '45-49', '50-54', '55-59', '60-64', '65-69',
-          '70-74', '75-79', '80-84', '85-89', '90-94',
-          '95-99', '100 + '];
+        var categories = ['Guidance', 'Human Factors', 'Leadership/Supervision', 'Resource Shortfall',
+          'Safety', 'Training','Other'];
         $(document).ready(function () {
           $('#container-root').highcharts({
             chart: {
               type: 'bar'
             },
             title: {
-              text: 'Population pyramid for Germany, 2015'
+              text: ''
             },
             subtitle: {
-              text: 'Source: <a href="http://populationpyramid.net/germany/2015/">Population Pyramids of the World from 1950 to 2100</a>'
+              text: ''
             },
             xAxis: [{
               categories: categories,
-              reversed: false,
+              reversed: true,
               labels: {
                 step: 1
               }
             }, { // mirror axis on right side
               opposite: true,
-              reversed: false,
+              reversed: true,
               categories: categories,
               linkedTo: 0,
               labels: {
@@ -68,22 +65,23 @@
 
             tooltip: {
               formatter: function () {
-                return '<b>' + this.series.name + ', age ' + this.point.category + '</b><br/>' +
-                    'Population: ' + Highcharts.numberFormat(Math.abs(this.point.y), 0);
+                return '<b>' + this.series.name + ', ' + this.point.category + '</b><br/>' + Highcharts.numberFormat(Math.abs(this.point.y), 2) + '%';
               }
             },
 
             series: [{
-              name: 'Male',
-              data: [-2.2, -2.2, -2.3, -2.5, -2.7, -3.1, -3.2,
-                -3.0, -3.2, -4.3, -4.4, -3.6, -3.1, -2.4,
-                -2.5, -2.3, -1.2, -0.6, -0.2, -0.0, -0.0]
+              name: 'Deficiencies',
+              data: [-9.3, -15.7, -10.3, -26.54, -22.42, -10.57, -5.15]
             }, {
-              name: 'Female',
-              data: [2.1, 2.0, 2.2, 2.4, 2.6, 3.0, 3.1, 2.9,
-                3.1, 4.1, 4.3, 3.6, 3.4, 2.6, 2.9, 2.9,
-                1.8, 1.2, 0.6, 0.1, 0.0]
-            }]
+              name: 'Observations',
+              data: [7.29, 16.94, 15.06, 24.24, 16.94, 18.35, 1.18]
+            }],
+            legend: {
+              enabled: false
+            },
+            credits: {
+              enabled: false
+            }
           });
         });
 
