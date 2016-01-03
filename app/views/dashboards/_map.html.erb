@@ -6,7 +6,7 @@
             <div class="row">
               <div class="col-md-12">
 
-                  <div id="container-map" style="height: 500px;"></div>
+                  <div id="container-map" style="height: 450px;"></div>
 
               </div>
 
@@ -30,7 +30,7 @@
             myData = Highcharts.geojson(Highcharts.maps['countries/us/us-all']),
             tempSeries,
         // Some responsiveness
-            small = $('#container-map').width() < 400;
+            small = $('#container-map').width() < 450;
 
         // Set drilldown pointers
         $.each(myData, function (i) {
@@ -194,7 +194,7 @@
             map: {
               states: {
                 hover: {
-                  enabled: false
+                  color: '#1c84c6'
                 },
                normal: {
                  animation: false

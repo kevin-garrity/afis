@@ -3,10 +3,10 @@
           <h1>Checklists</h1>
         </div>
         <div class="ibox-content" style="clear:left; float:left; width: 50%;">
-          <div id="container-checklist" style="height: 215px;"></div>
+          <div id="container-checklist" style="height: 210px;"></div>
         </div>
         <div class="ibox-content" style="clear:right; float:left; width: 50%;">
-          <div id="container-completion" style="height: 215px;"></div>
+          <div id="container-completion" style="height: 210px;"></div>
         </div>
       </div>
 
@@ -24,10 +24,10 @@
             renderTo: 'container-checklist',
           },
           title: {
-            text: ''
+            text: '<span style="font-size: 20px;">Compliance</span>'
           },
           subtitle: {
-            text: '<span style="font-size: 20px;">Compliance</span>',
+            text: '<span style="font-size: 20px;">'+rand1+'</span>',
             align: 'center'
           },
           tooltip: {
@@ -57,7 +57,8 @@
             }],
             size: '140%',
             innerSize: '60%',
-            enableMouseTracking: false
+            enableMouseTracking: false,
+
           }]
         });
 
@@ -68,13 +69,13 @@
           renderTo: 'container-completion',
         },
         title: {
-          text: ''
+          text: '<span style="font-size: 20px;">Completion</span>'
         },
         credits: {
           enabled: false
         },
         subtitle: {
-          text: '<span style="font-size: 20px;">Completion</span>',
+          text: '<span style="font-size: 20px;">'+rand2+'</span>',
           align: 'center'
         },
         tooltip: {

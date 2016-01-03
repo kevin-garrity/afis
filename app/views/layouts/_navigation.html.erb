@@ -22,7 +22,7 @@
             </li>
 
             <li class="<%= is_active_controller('dashboards') %>">
-                <a href=""><i class="fa fa-tachometer"></i> <span class="nav-label">Dashboards</span> <span class="fa arrow"></span></a>
+                <a href=""><i class="fa fa-tachometer"></i> <span class="nav-label">Dashboard</span> <span class="fa arrow"></span></a>
                 <ul class="nav nav-second-level collapse <%= is_active_controller('dashboards') %>">
                     <li class="<%= is_active_action('overview') %>"><%= link_to "Overview", dashboards_overview_path %></li>
                     <li class="<%= is_active_action('inspection') %>"><%= link_to "Commanders Inspection", dashboards_inspection_path %></li>
@@ -55,7 +55,7 @@
             </li>
 
 
-<!--
+
 
             <li class="<%= is_active_controller('layoutsoptions') %>">
                 <%= link_to layoutsoptions_index_path do %>
@@ -246,7 +246,7 @@
                 <i class="fa fa-star"></i> <span class="nav-label">Landing page </span>
                 <% end %>
             </li>
--->
+
 
 
 

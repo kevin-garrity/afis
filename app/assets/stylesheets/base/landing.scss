@@ -643,7 +643,7 @@ body.landing-page {
     font-size:30px;
   }
   .favor-icon i:hover {
-    color: darken($navy, 5%);
+    color: $blue;
   }
   div.logo {
     position: absolute;
@@ -667,7 +667,7 @@ body.landing-page {
     font-size: 30px;
    }
   .favor-link a:hover {
-    color: darken($navy, 5%);
+    color: $blue;
   }
 }
 

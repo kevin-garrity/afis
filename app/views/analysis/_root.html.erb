@@ -5,7 +5,7 @@
   <div class="ibox-content">
     <div class="row">
       <div class="col-lg-12">
-        <div  id="container-root"></div>
+        <div  id="container-root" style="min-width: 310px; max-width: 800px; height: 400px; margin: 0 auto"></div>
       </div>
     </div>
 
@@ -17,22 +17,22 @@
 
     <script type="text/javascript">
       $(function () {
-        // Age categories
-        var categories = ['Guidance', 'Human Factors', 'Leadership/Supervision', 'Resource Shortfall',
-          'Safety', 'Training','Other'];
+        var cat = ['Guidance', 'Human Factors', 'Leadership/Supervision', 'Resource Shortfall',
+          'Safety', 'Training', 'Other'];
         $(document).ready(function () {
           $('#container-root').highcharts({
             chart: {
               type: 'bar'
             },
             title: {
-              text: ''
+              text: 'Deficiencies Observations',
             },
             subtitle: {
               text: ''
             },
             xAxis: [{
-              categories: categories,
+              type: 'category',
+              categories: cat,
               reversed: true,
               labels: {
                 step: 1
@@ -40,7 +40,8 @@
             }, { // mirror axis on right side
               opposite: true,
               reversed: true,
-              categories: categories,
+              categories: cat,
+              type: 'category',
               linkedTo: 0,
               labels: {
                 step: 1
@@ -59,7 +60,7 @@
 
             plotOptions: {
               series: {
-                stacking: 'normal'
+                stacking: 'normal',
               }
             },
 
@@ -71,11 +72,427 @@
 
             series: [{
               name: 'Deficiencies',
-              data: [-9.3, -15.7, -10.3, -26.54, -22.42, -10.57, -5.15]
+              data: [{
+                name: 'Guidance',
+                y: -9.3,
+                drilldown: 'Def Guidance'
+              }, {
+                name: 'Human Factors',
+                y: -15.7,
+                drilldown: 'Def Human Factors'
+              }, {
+                name: 'Leadership/Supervision',
+                y: -10.3,
+                drilldown: 'Def Leadership/Supervision'
+              }, {
+                name: 'Resource Shortfall',
+                y: -26.54,
+                drilldown: 'Def Resource Shortfall'
+              }, {
+                name: 'Safety',
+                y: -22.42,
+                drilldown: 'Def Safety'
+              }, {
+                name: 'Training',
+                y: -10.57,
+                drilldown: 'Def Training'
+              }, {
+                name: 'Other',
+                y: -5.15
+              }]
             }, {
               name: 'Observations',
-              data: [7.29, 16.94, 15.06, 24.24, 16.94, 18.35, 1.18]
+              data: [{
+                name: 'Guidance',
+                y: 7.29,
+                drilldown: 'Obs Guidance'
+              }, {
+                name: 'Human Factors',
+                y: 16.94,
+                drilldown: 'Obs Human Factors'
+              }, {
+                name: 'Leadership/Supervision',
+                y: 15.06,
+                drilldown: 'Obs Leadership/Supervision'
+              }, {
+                name: 'Resource Shortfall',
+                y: 24.24,
+                drilldown: 'Obs Resource Shortfall'
+              }, {
+                name: 'Safety',
+                y: 16.94,
+                drilldown: 'Obs Safety'
+              }, {
+                name: 'Training',
+                y: 18.35,
+                drilldown: 'Obs Training'
+              }, {
+                name: 'Other',
+                y: 1.18
+              }]
             }],
+
+            drilldown: {
+              series: [{
+                name: 'Guidance',
+                id: 'Def Guidance',
+                data: [
+                  [
+                    'Guidance used was inadequate or not available',
+                    7
+                  ],
+                  [
+                    'inspected unit guidance(Wing or Below)',
+                    14
+                  ],
+                  [
+                    'Other than inspected unit guidance',
+                    15
+                  ]
+                ]
+              }, {
+                name: 'Human Factors',
+                id: 'Def Human Factors',
+                data: [
+                  [
+                    'Ops tempo/Workload',
+                    7
+                  ],
+                  [
+                    'Skill-based errors',
+                    6
+                  ],
+                  [
+                    'Emotional state interfered with performance',
+                    7
+                  ],
+                  [
+                    'Inappropriate motivation',
+                    8
+                  ],
+                  [
+                    'Inappropriate substance use',
+                    16
+                  ],
+                  [
+                    'Fatigue',
+                    0
+                  ],
+                  [
+                    'Unreported medical condition',
+                    17
+                  ]
+                ]
+              }, {
+                name: 'Leadership/Supervision',
+                id: 'Def Leadership/Supervision',
+                data: [
+                  [
+                    'Supervisor/leadership involvement insufficient',
+                    18
+                  ],
+                  [
+                    'Ineffective communication',
+                    3
+                  ],
+                  [
+                    'Ops Tempo/Workload',
+                    10
+                  ],
+                  [
+                    'Unit incorrectly prioritized available resources',
+                    8
+                  ],
+                  [
+                    'Unit failed to adequately program resources',
+                    1
+                  ]
+                ]
+              }, {
+                name: 'Resource Shortfall',
+                id: 'Def Resource Shortfall',
+                data: [
+                  [
+                    'Program shortfall(Air Force Level)',
+                    18
+                  ],
+                  [
+                    'Awaiting resupply',
+                    7
+                  ],
+                  [
+                    'Not requisitioned',
+                    18
+                  ],
+                  [
+                    'Maintenance',
+                    4
+                  ],
+                  [
+                    'Deployed',
+                    18
+                  ],
+                  [
+                    'Insufficient personnel due to PRP certification/requirements',
+                    15
+                  ],
+                  [
+                    'Program Shortfall(MAJCOM level)',
+                    8
+                  ],
+                  [
+                    'Program Shortfall(wing/installation level)',
+                    11
+                  ],
+                  [
+                    'Parent unit withheld funding',
+                    4
+                  ],
+                  [
+                    'Awaiting security clearance',
+                    0
+                  ]
+                ]
+              }, {
+                name: 'Safety',
+                id: 'Def Safety',
+                data: [
+                  [
+                    'Flight Safety Program management inadequate',
+                    20
+                  ],
+                  [
+                    'Weapons Safety Program management inadequate',
+                    15
+                  ],
+                  [
+                    'Flight Safety Program management inadequate',
+                    0
+                  ],
+                  [
+                    'Ground Safety Supervisory support inadequate',
+                    5
+                  ],
+                  [
+                    'Space Safety Program management inadequate',
+                    5
+                  ],
+                  [
+                    'Selected aspects of space safety program not effectively implemented',
+                    20
+                  ],
+                  [
+                    'Space Safety Supervisory support inadequate',
+                    16
+                  ]
+                ]
+              }, {
+                name: 'Training',
+                id: 'Def Training',
+                data: [
+                  [
+                    'Training Program management inadequate',
+                    17
+                  ],
+                  [
+                    'Training evaluation tools inadequate',
+                    5
+                  ],
+                  [
+                    'Training documentation inadequate/missing',
+                    15
+                  ],
+                  [
+                    'Training guidance/policy/procedures inadequate',
+                    4
+                  ],
+                  [
+                    'Training oversight inadequate',
+                    0
+                  ]
+                ]
+              },{
+                name: 'Guidance',
+                id: 'Obs Guidance',
+                data: [
+                  [
+                    'Guidance used was inadequate or not available',
+                    12
+                  ],
+                  [
+                    'inspected unit guidance(Wing or Below)',
+                    10
+                  ],
+                  [
+                    'Other than inspected unit guidance',
+                    9
+                  ]
+                ]
+              }, {
+                name: 'Human Factors',
+                id: 'Obs Human Factors',
+                data: [
+                  [
+                    'Ops tempo/Workload',
+                    20
+                  ],
+                  [
+                    'Skill-based errors',
+                    4
+                  ],
+                  [
+                    'Emotional state interfered with performance',
+                    16
+                  ],
+                  [
+                    'Inappropriate motivation',
+                    0
+                  ],
+                  [
+                    'Inappropriate substance use',
+                    17
+                  ],
+                  [
+                    'Fatigue',
+                    14
+                  ],
+                  [
+                    'Unreported medical condition',
+                    1
+                  ]
+                ]
+              }, {
+                name: 'Leadership/Supervision',
+                id: 'Obs Leadership/Supervision',
+                data: [
+                  [
+                    'Supervisor/leadership involvement insufficient',
+                    17
+                  ],
+                  [
+                    'Ineffective communication',
+                    14
+                  ],
+                  [
+                    'Ops Tempo/Workload',
+                    7
+                  ],
+                  [
+                    'Unit incorrectly prioritized available resources',
+                    14
+                  ],
+                  [
+                    'Unit failed to adequately program resources',
+                    12
+                  ]
+                ]
+              }, {
+                name: 'Resource Shortfall',
+                id: 'Obs Resource Shortfall',
+                data: [
+                  [
+                    'Program shortfall(Air Force Level)',
+                    5
+                  ],
+                  [
+                    'Awaiting resupply',
+                    16
+                  ],
+                  [
+                    'Not requisitioned',
+                    10
+                  ],
+                  [
+                    'Maintenance',
+                    11
+                  ],
+                  [
+                    'Deployed',
+                    14
+                  ],
+                  [
+                    'Insufficient personnel due to PRP certification/requirements',
+                    15
+                  ],
+                  [
+                    'Program Shortfall(MAJCOM level)',
+                    8
+                  ],
+                  [
+                    'Program Shortfall(wing/installation level)',
+                    13
+                  ],
+                  [
+                    'Parent unit withheld funding',
+                    0
+                  ],
+                  [
+                    'Awaiting security clearance',
+                    11
+                  ]
+                ]
+              }, {
+                name: 'Safety',
+                id: 'Obs Safety',
+                data: [
+                  [
+                    'Flight Safety Program management inadequate',
+                    5
+                  ],
+                  [
+                    'Weapons Safety Program management inadequate',
+                    3
+                  ],
+                  [
+                    'Flight Safety Program management inadequate',
+                    2
+                  ],
+                  [
+                    'Ground Safety Supervisory support inadequate',
+                    16
+                  ],
+                  [
+                    'Space Safety Program management inadequate',
+                    2
+                  ],
+                  [
+                    'Selected aspects of space safety program not effectively implemented',
+                    20
+                  ],
+                  [
+                    'Space Safety Supervisory support inadequate',
+                    6
+                  ]
+                ]
+              }, {
+                name: 'Training',
+                id: 'Obs Training',
+                data: [
+                  [
+                    'Training Program management inadequate',
+                    19
+                  ],
+                  [
+                    'Training evaluation tools inadequate',
+                    19
+                  ],
+                  [
+                    'Training documentation inadequate/missing',
+                    11
+                  ],
+                  [
+                    'Training guidance/policy/procedures inadequate',
+                    20
+                  ],
+                  [
+                    'Training oversight inadequate',
+                    9
+                  ]
+
+                ]
+
+              }]
+            },
             legend: {
               enabled: false
             },

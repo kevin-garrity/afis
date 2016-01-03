@@ -5,19 +5,19 @@
       <%= render 'dashboards/map' %>
     </div>
     <div class="col-lg-4">
-      <div class="ibox">
-        <div class="ibox-title lazur-bg">
-          <h1>Closed Deficiency Stats</h1>
+        <div class="widget lazur-bg" style="padding: 15px 20px; margin-top: 10px; margin-bottom: 3px;">
+          <div>
+          <h1 class="m-xs">Closed Deficiency Stats</h1>
+          </div>
         </div>
-        <div class="ibox-content" style="padding:0;">
-          <div class="widget lazur-bg p-xl" style="margin:0;">
+          <div class="widget lazur-bg" style="margin:0px 0px 0px 0px;">
             <div class="row vertical-align">
               <div class="col-md-6 vertical-align">
               <div>
                 <i class="fa fa-check-square-o fa-4x"></i>
               </div>
               <div>
-                <h1 class="m-xs">75%</h1>
+                <h1>75%</h1>
               </div>
               </div>
               <div class="col-md-6 vertical-align">
@@ -25,23 +25,19 @@
                 <i class="fa fa-trophy fa-4x"></i>
               </div>
               <div>
-                <h1 class="m-xs">250<small> Total </small></h1>
+                <h1>250<small> Total </small></h1>
               </div>
               </div>
             </div>
           </div>
-        </div>
-
-      </div>
-
     </div>
 
     <div class="col-lg-4">
       <div class="ibox">
-        <div class="ibox-title">
+        <div class="ibox-title" style="padding-top: 20px;">
           <h1>Countermeasure Status</h1>
         </div>
-        <div class="ibox-content">
+        <div class="ibox-content" style="padding-top: 10px; padding-bottom: 10px;">
           <div class="row vertical-align">
           <div class="col-md-4 text-center">
           <div>
@@ -86,19 +82,19 @@
 
         $("#sparkline1").sparkline([2, 8], {
           type: 'pie',
-          height: '120',
+          height: '100',
           sliceColors: ['#1ab394', '#F5F5F5']
         });
 
         $("#sparkline2").sparkline([3.7, 6.3], {
           type: 'pie',
-          height: '120',
+          height: '100',
           sliceColors: ['#1ab394', '#F5F5F5']
         });
 
         $("#sparkline3").sparkline([4.3, 5.7], {
           type: 'pie',
-          height: '120',
+          height: '100',
           sliceColors: ['#1ab394', '#F5F5F5']
         });
 
