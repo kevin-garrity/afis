@@ -17,9 +17,6 @@
 //= require highmaps/mapdata/us-all.js
 //= require highcharts/highcharts-more.js
 //= require highcharts/modules/solid-gauge.js
-//= require highstock/chartData/aapl.js
-//= require highstock/chartData/goog.js
-//= require highstock/chartData/msft.js
 
 //= require iCheck/icheck.min.js
 //= require jeditable/jquery.jeditable.js

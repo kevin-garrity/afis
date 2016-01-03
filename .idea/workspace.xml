@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d35d6f79-cb93-4411-9ff8-e7e495cac302" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sass/a8c3f32d6665c87d36dd590e1f632052275af498/base.scssc" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sass/a8c3f32d6665c87d36dd590e1f632052275af498/base.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sass/a8c3f32d6665c87d36dd590e1f632052275af498/elements.scssc" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sass/a8c3f32d6665c87d36dd590e1f632052275af498/elements.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sass/a8c3f32d6665c87d36dd590e1f632052275af498/landing.scssc" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sass/a8c3f32d6665c87d36dd590e1f632052275af498/landing.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/264a0ab83d3e7524cad560ed3e863529" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/264a0ab83d3e7524cad560ed3e863529" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/2ff50f8eeb2375b74ac6494af58dbd28" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/2ff50f8eeb2375b74ac6494af58dbd28" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/8ab512c9b33ac90e699b73469d71f061" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/8ab512c9b33ac90e699b73469d71f061" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/b7da1a1d56604c814b7fd369a96d2411" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/b7da1a1d56604c814b7fd369a96d2411" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/bcca522c6302f184f12fe0e8a7d7e71a" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/bcca522c6302f184f12fe0e8a7d7e71a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/c13fc73ceafa45876a901b3e775b83ae" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/c13fc73ceafa45876a901b3e775b83ae" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/base/base.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/base/base.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/base/elements.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/base/elements.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/base/landing.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/base/landing.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/analysis/_root.html.erb" afterPath="$PROJECT_DIR$/app/views/analysis/_root.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/dashboards/_checklists.html.erb" afterPath="$PROJECT_DIR$/app/views/dashboards/_checklists.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/dashboards/_map.html.erb" afterPath="$PROJECT_DIR$/app/views/dashboards/_map.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/dashboards/inspection.html.erb" afterPath="$PROJECT_DIR$/app/views/dashboards/inspection.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/dashboards/overview.html.erb" afterPath="$PROJECT_DIR$/app/views/dashboards/overview.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_navigation.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_navigation.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/pids/server.pid" afterPath="$PROJECT_DIR$/tmp/pids/server.pid" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/dashboards.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/dashboards.js" />
     </list>
     <ignored path="afis.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -128,16 +108,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="inspection.html.erb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="inspection.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/dashboards/inspection.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.17727272">
+            <state vertical-scroll-proportion="-20.057142">
               <caret line="36" column="54" selection-start-line="36" selection-start-column="54" selection-end-line="36" selection-end-column="54" />
               <folding>
                 <element signature="e#198#263#0#HTML" expanded="true" />
                 <element signature="e#408#439#0#HTML" expanded="true" />
                 <element signature="e#1236#1284#0#HTML" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dashboards.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/dashboards.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.13005464">
+              <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -203,7 +193,6 @@
         <option value="$PROJECT_DIR$/app/views/analysis/flow.html.erb" />
         <option value="$PROJECT_DIR$/app/views/analysis/overview.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/dashboards_analysis_controller.rb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/dashboards.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/analysis.js" />
         <option value="$PROJECT_DIR$/app/views/analysis/_flow.html.erb" />
         <option value="$PROJECT_DIR$/app/views/analysis/_major.html.erb" />
@@ -220,6 +209,7 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/base/base.scss" />
         <option value="$PROJECT_DIR$/app/views/dashboards/_map.html.erb" />
         <option value="$PROJECT_DIR$/app/views/dashboards/inspection.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/dashboards.js" />
       </list>
     </option>
   </component>
@@ -1034,13 +1024,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/dashboards.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24153006">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/analysis/_flow.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3824522">
@@ -1291,13 +1274,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/dashboards/inspection.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17727272">
+        <state vertical-scroll-proportion="-20.057142">
           <caret line="36" column="54" selection-start-line="36" selection-start-column="54" selection-end-line="36" selection-end-column="54" />
           <folding>
             <element signature="e#198#263#0#HTML" expanded="true" />
             <element signature="e#408#439#0#HTML" expanded="true" />
             <element signature="e#1236#1284#0#HTML" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/dashboards.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13005464">
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
