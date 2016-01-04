@@ -9,8 +9,22 @@
     </div>
 
   <div class="col-lg-4">
-    <%= render 'dashboards/checklists' %>
-    <div id="padding-checklist" class="ibox-content" style="border-width: 0px 0px; height: 175px;"></div>
+
+    <div class="ibox">
+      <div class="ibox-title">
+        <h1>Checklists</h1>
+      </div>
+      <div class="ibox-content" style="margin-top: 15px; clear:left; float:left; width: 50%;">
+        <div id="container-checklist" style="height: 250px;"></div>
+      </div>
+      <div class="ibox-content" style="margin-top: 15px; clear:right; float:left; width: 50%;">
+        <div id="container-completion" style="height: 250px;"></div>
+      </div>
+      <div class="ibox-content" style="border-width: 0px; height: 120px;">
+
+      </div>
+    </div>
+
   </div>
 
 </div>
@@ -294,6 +308,97 @@
         };
 
         createChart();
+
+          var rand1, rand2;
+
+          rand1 = Math.round(Math.random() * 100);
+          $('#container-checklist').highcharts({
+            chart: {
+              type: 'pie',
+              renderTo: 'container-checklist',
+            },
+            title: {
+              text: '<span style="font-size: 20px;">Compliance</span>'
+            },
+            subtitle: {
+              text: '<span style="font-size: 20px;">'+rand1+'</span>',
+              align: 'center'
+            },
+            tooltip: {
+              enabled: false
+            },
+            credits: {
+              enabled: false
+            },
+            plotOptions: {
+              pie: {
+                shadow: false,
+                center: ['50%', '50%'],
+                dataLabels: {
+                  enabled: false
+                }
+              }
+            },
+
+            series: [{
+              name: 'Compliance',
+              data: [{
+                y: rand1,
+                color: '#55BF3B'
+              },{
+                y: 100 - rand1,
+                color: '#ffffff'
+              }],
+              size: '140%',
+              innerSize: '60%',
+              enableMouseTracking: false,
+
+            }]
+          });
+
+          rand2 = Math.round(Math.random() * 100);
+          $('#container-completion').highcharts({
+            chart: {
+              type: 'pie',
+              renderTo: 'container-completion',
+            },
+            title: {
+              text: '<span style="font-size: 20px;">Completion</span>'
+            },
+            credits: {
+              enabled: false
+            },
+            subtitle: {
+              text: '<span style="font-size: 20px;">'+rand2+'</span>',
+              align: 'center'
+            },
+            tooltip: {
+              enabled: false
+            },
+            plotOptions: {
+              pie: {
+                shadow: false,
+                center: ['50%', '50%'],
+                dataLabels: {
+                  enabled: false
+                }
+              }
+            },
+
+            series: [{
+              name: 'Completion',
+              data: [{
+                y: rand2,
+                color: '#55BF3B'
+              },{
+                y: 100 - rand2,
+                color: '#ffffff'
+              }],
+              size: '140%',
+              innerSize: '60%',
+              enableMouseTracking: false
+            }]
+          });
 
       });
     </script>
