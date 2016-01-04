@@ -131,6 +131,5 @@ Myapp::Application.routes.draw do
   get "analysis/overview"
   get "analysis/major"
   get "analysis/root"
-  get "analysis/flow"
 
 end

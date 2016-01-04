@@ -1,107 +1,72 @@
 <div class="wrapper wrapper-content">
 
   <div class="row">
-    <div class="col-lg-8">
-      <%= render 'dashboards/map' %>
+
+    <div class="col-lg-12">
+      <%= render 'analysis/major' %>
     </div>
-    <div class="col-lg-4">
-      <div class="ibox">
-        <div class="ibox-title lazur-bg">
-          <h1>Closed Deficiency Stats</h1>
-        </div>
-        <div class="ibox-content" style="padding:0;">
-          <div class="widget lazur-bg p-xl" style="margin:0;">
-            <div class="row vertical-align">
-              <div class="col-md-6 vertical-align">
-              <div>
-                <i class="fa fa-check-square-o fa-4x"></i>
-              </div>
-              <div>
-                <h1 class="m-xs">75%</h1>
-              </div>
-              </div>
-              <div class="col-md-6 vertical-align">
-              <div>
-                <i class="fa fa-trophy fa-4x"></i>
-              </div>
-              <div>
-                <h1 class="m-xs">250<small> Total </small></h1>
-              </div>
-              </div>
+
+  </div>
+
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="ibox" style="margin-top: 20px;">
+                <div class="ibox-content">
+              <table class="footable table table-stripped table-bordered">
+                <thead>
+                <tr>
+                  <th>Major Graded Area</th>
+                  <th>Grade</th>
+                  <th>Comments</th>
+                  <th>RIAs</th>
+                  <th>Deficiencies</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                  <td>Managing Resources</td>
+                  <td><span class="label label-primary">Highly Effective</span></td>
+                  <td>13</td>
+                  <td>34</td>
+                  <td>21</td>
+                </tr>
+                <tr>
+                  <td>Leadership and Supervision</td>
+                  <td><span class="label label-primary">Effective</span></td>
+                  <td>3</td>
+                  <td>4</td>
+                  <td>2</td>
+                </tr>
+                <tr>
+                  <td>Improving the Unit</td>
+                  <td><span class="label label-warning">Marginally Effective</span></td>
+                  <td>1</td>
+                  <td>31</td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>Executing the Mission</td>
+                  <td><span class="label label-warning">Effective</span></td>
+                  <td>0</td>
+                  <td>4</td>
+                  <td>2</td>
+                </tr>
+
+                </tbody>
+              </table>
             </div>
           </div>
+              </div>
+            </div>
+
         </div>
-
-      </div>
-
-    </div>
-
-    <div class="col-lg-4">
-      <div class="ibox">
-        <div class="ibox-title">
-          <h1>Countermeasure Status</h1>
-        </div>
-        <div class="ibox-content">
-          <div class="row vertical-align">
-          <div class="col-md-4 text-center">
-          <div>
-            <div id="sparkline1"></div>
-          </div>
-            <h2>20%</h2>
-            <h5>Not Started</h5>
-          </div>
-          <div class="col-md-4 text-center">
-          <div>
-            <div id="sparkline2"></div>
-          </div>
-            <h2>37%</h2>
-            <h5>In Progress</h5>
-          </div>
-          <div class="col-md-4 text-center">
-          <div>
-            <div id="sparkline3"></div>
-          </div>
-            <h2>43%</h2>
-            <h5>Complete</h5>
-          </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </div>
-
-  <div class="row">
-    <div class="col-lg-12">
-      <%= render 'dashboards/inspanel' %>
-    </div>
-  </div>
-
-</div>
 
 <% content_for :javascript do %>
 
     <script type="text/javascript">
       $(function () {
-
-        $("#sparkline1").sparkline([2, 8], {
-          type: 'pie',
-          height: '120',
-          sliceColors: ['#1ab394', '#F5F5F5']
-        });
-
-        $("#sparkline2").sparkline([3.7, 6.3], {
-          type: 'pie',
-          height: '120',
-          sliceColors: ['#1ab394', '#F5F5F5']
-        });
-
-        $("#sparkline3").sparkline([4.3, 5.7], {
-          type: 'pie',
-          height: '120',
-          sliceColors: ['#1ab394', '#F5F5F5']
-        });
-
+        $('.footable').footable();
+        $('.footable2').footable();
       });
     </script>
 

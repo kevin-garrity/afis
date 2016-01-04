@@ -522,7 +522,7 @@ code {
   border-width: 3px 0px 0;
   color: inherit;
   margin-bottom: 0;
-  padding: 0px 15px 7px;
+  padding: 14px 15px 7px;
   min-height: 48px;
 }
 
@@ -1295,4 +1295,16 @@ body.mini-navbar.fixed-sidebar .nav-header {
 
 body.mini-navbar.fixed-sidebar .logo-element{
   display: none;
+}
+
+@media (min-width: 1200px) and (max-width: 1280px) {
+  #top10, #riskassess {
+    padding-right: 0px;
+  }
+}
+
+@media (max-width: 1200px){
+  #padding-checklist{
+    display:none;
+  }
 }

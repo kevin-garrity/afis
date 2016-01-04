@@ -1,17 +1,17 @@
-<div class="wrapper wrapper-content">
+<div class="wrapper wrapper-content" style="padding-right: 0px;">
 
   <div class="row">
   <div class="col-lg-8">
       <%= render 'dashboards/map' %>
 </div>
-    <div class="col-lg-4">
-      <div class="ibox float-e-margins">
+    <div id="top10" class="col-lg-4">
+      <div class="ibox">
         <div class="ibox-title">
           <h1>Top 10</h1>
         </div>
-        <div class="ibox-content">
+        <div class="ibox-content"  style="height: 400px;">
 
-          <table class="table table-stripped table-bordered" data-page-size="8" data-filter=#filter  style="font-size: large; height: 435px;">
+          <table class="table table-stripped table-bordered">
             <thead>
             <tr>
               <th>Type</th>
@@ -92,7 +92,7 @@
 
   <div class="row">
 
-    <div class="col-lg-12">
+    <div id="riskassess" class="col-lg-12">
       <div class="ibox float-e-margins">
         <div class="ibox-title">
           <h1>Risk Assessment </h1>

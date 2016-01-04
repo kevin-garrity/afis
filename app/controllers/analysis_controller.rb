@@ -9,7 +9,4 @@ class AnalysisController < ApplicationController
   def root
   end
 
-  def flow
-  end
-
 end

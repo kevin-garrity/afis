@@ -28,9 +28,9 @@
          */
         var mapData = Highcharts.maps['countries/us/us-all'],
             myData = Highcharts.geojson(Highcharts.maps['countries/us/us-all']),
-            tempSeries,
+            tempSeries;
         // Some responsiveness
-            small = $('#container-map').width() < 450;
+
 
         // Set drilldown pointers
         $.each(myData, function (i) {
@@ -177,11 +177,7 @@
               '#d3d3d3'
           ],
 
-          legend: small ? {} : {
-            layout: 'vertical',
-            align: 'right',
-            verticalAlign: 'middle'
-          },
+
 
           mapNavigation: {
             enabled: false,

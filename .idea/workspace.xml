@@ -2,7 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d35d6f79-cb93-4411-9ff8-e7e495cac302" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/dashboards.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/dashboards.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/analysis/_flow.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/analysis/flow.html.erb" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sass/a8c3f32d6665c87d36dd590e1f632052275af498/base.scssc" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sass/a8c3f32d6665c87d36dd590e1f632052275af498/base.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/19d565a9adf9c444137823f34a04c01a" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/19d565a9adf9c444137823f34a04c01a" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/25a6d1febd322002921ae5b3b31f307d" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/25a6d1febd322002921ae5b3b31f307d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/264a0ab83d3e7524cad560ed3e863529" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/264a0ab83d3e7524cad560ed3e863529" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/2ff50f8eeb2375b74ac6494af58dbd28" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/2ff50f8eeb2375b74ac6494af58dbd28" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/671b089b50e0197b801775c133af338d" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/671b089b50e0197b801775c133af338d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/8ab512c9b33ac90e699b73469d71f061" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/8ab512c9b33ac90e699b73469d71f061" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/b7da1a1d56604c814b7fd369a96d2411" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/b7da1a1d56604c814b7fd369a96d2411" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/bcca522c6302f184f12fe0e8a7d7e71a" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/bcca522c6302f184f12fe0e8a7d7e71a" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/c13fc73ceafa45876a901b3e775b83ae" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/c13fc73ceafa45876a901b3e775b83ae" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/analysis.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/analysis.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/base/base.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/base/base.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/analysis_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/analysis_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/analysis/major.html.erb" afterPath="$PROJECT_DIR$/app/views/analysis/major.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/analysis/overview.html.erb" afterPath="$PROJECT_DIR$/app/views/analysis/overview.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/analysis/root.html.erb" afterPath="$PROJECT_DIR$/app/views/analysis/root.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/dashboards/_map.html.erb" afterPath="$PROJECT_DIR$/app/views/dashboards/_map.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/dashboards/inspection.html.erb" afterPath="$PROJECT_DIR$/app/views/dashboards/inspection.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/dashboards/riskassess.html.erb" afterPath="$PROJECT_DIR$/app/views/dashboards/riskassess.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/dashboards/selfassess.html.erb" afterPath="$PROJECT_DIR$/app/views/dashboards/selfassess.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_navigation.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_navigation.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
     </list>
     <ignored path="afis.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,125 +54,74 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="_checklists.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/dashboards/_checklists.html.erb">
+      <file leaf-file-name="major.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/analysis/major.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.6153846">
-              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+            <state vertical-scroll-proportion="-12.923077">
+              <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
               <folding>
-                <element signature="e#301#345#0#HTML" expanded="true" />
-                <element signature="e#388#410#0#HTML" expanded="true" />
-                <marker date="1451838468168" expanded="true" signature="816:832" placeholder="..." />
-                <marker date="1451838468168" expanded="true" signature="920:936" placeholder="..." />
-                <marker date="1451838468168" expanded="true" signature="1916:1932" placeholder="..." />
-                <marker date="1451838468168" expanded="true" signature="2069:2085" placeholder="..." />
+                <element signature="e#243#268#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_status.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/dashboards/_status.html.erb">
+      <file leaf-file-name="root.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/analysis/root.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="24.846153">
-              <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="111" />
+            <state vertical-scroll-proportion="-9.807693">
+              <caret line="45" column="29" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
               <folding>
-                <element signature="e#111#195#0#HTML" expanded="true" />
-                <element signature="e#451#520#0#HTML" expanded="true" />
-                <element signature="e#551#573#0#HTML" expanded="true" />
-                <element signature="e#618#688#0#HTML" expanded="true" />
-                <element signature="e#718#740#0#HTML" expanded="true" />
-                <marker date="1451838468177" expanded="true" signature="3546:3618" placeholder="..." />
-                <marker date="1451838468177" expanded="true" signature="4443:4515" placeholder="..." />
+                <element signature="e#218#243#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="overview.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/dashboards/overview.html.erb">
+      <file leaf-file-name="riskassess.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/dashboards/riskassess.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.6153846">
-              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="summernote-bs3.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/assets/stylesheets/summernote/summernote-bs3.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-26.115385">
-              <caret line="757" column="9" selection-start-line="757" selection-start-column="9" selection-end-line="757" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_map.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/dashboards/_map.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.153846">
-              <caret line="32" column="52" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
+            <state vertical-scroll-proportion="-4.5384617">
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="11" selection-end-column="58" />
               <folding>
-                <element signature="e#220#242#0#HTML" expanded="true" />
-                <marker date="1451842955307" expanded="true" signature="4616:4631" placeholder="..." />
-                <marker date="1451842955307" expanded="true" signature="6690:6705" placeholder="..." />
+                <element signature="e#328#350#0#HTML" expanded="true" />
+                <element signature="e#363#2708#0#HTML" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/base/base.scss">
+      <file leaf-file-name="_inspanel.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/dashboards/_inspanel.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.884615">
-              <caret line="525" column="19" selection-start-line="525" selection-start-column="19" selection-end-line="525" selection-end-column="19" />
+            <state vertical-scroll-proportion="-59.692307">
+              <caret line="278" column="8" selection-start-line="278" selection-start-column="8" selection-end-line="279" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="inspection.html.erb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_navigation.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/_navigation.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-25.461538">
+              <caret line="248" column="3" selection-start-line="248" selection-start-column="3" selection-end-line="248" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="inspection.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/dashboards/inspection.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.057142">
-              <caret line="36" column="54" selection-start-line="36" selection-start-column="54" selection-end-line="36" selection-end-column="54" />
+            <state vertical-scroll-proportion="0.5300231">
+              <caret line="36" column="57" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="57" />
               <folding>
                 <element signature="e#198#263#0#HTML" expanded="true" />
                 <element signature="e#408#439#0#HTML" expanded="true" />
-                <element signature="e#1236#1284#0#HTML" expanded="true" />
+                <element signature="e#1060#1086#0#HTML" expanded="true" />
+                <element signature="e#1264#1312#0#HTML" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dashboards.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/dashboards.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.13005464">
-              <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/widgets/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.923077">
-              <caret line="87" column="32" selection-start-line="87" selection-start-column="19" selection-end-line="87" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="elements.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/base/elements.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.6153846">
-              <caret line="723" column="18" selection-start-line="722" selection-start-column="0" selection-end-line="724" selection-end-column="19" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -160,8 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/views/layouts/empty.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/miscellaneous/tree_view.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/views/layouts/layout_2.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/layout_3.html.erb" />
@@ -187,29 +159,32 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/tables.css.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/dashboards.css.scss" />
         <option value="$PROJECT_DIR$/app/views/dashboards/_inspanel.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/dashboards/riskassess.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/dashboards/selfassess.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/analysis/flow.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/analysis/overview.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/dashboards_analysis_controller.rb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/analysis.js" />
-        <option value="$PROJECT_DIR$/app/views/analysis/_flow.html.erb" />
         <option value="$PROJECT_DIR$/app/views/analysis/_major.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/dashboards_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/landing/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/analysis/_root.html.erb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/base/landing.scss" />
-        <option value="$PROJECT_DIR$/app/views/layouts/_navigation.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/base/elements.scss" />
         <option value="$PROJECT_DIR$/app/views/dashboards/_status.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/dashboards/_checklists.html.erb" />
         <option value="$PROJECT_DIR$/app/views/dashboards/overview.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/base/base.scss" />
-        <option value="$PROJECT_DIR$/app/views/dashboards/_map.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/dashboards/inspection.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/dashboards.js" />
+        <option value="$PROJECT_DIR$/app/views/dashboards/_map.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/dashboards/riskassess.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/dashboards/_checklists.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/dashboards/selfassess.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/base/base.scss" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/analysis.js" />
+        <option value="$PROJECT_DIR$/app/views/analysis/flow.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/analysis/_flow.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/analysis/overview.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/analysis_controller.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/views/analysis/major.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/analysis/root.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/_navigation.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/dashboards/inspection.html.erb" />
       </list>
     </option>
   </component>
@@ -595,32 +570,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="afis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="afis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="javascripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -846,9 +795,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18697916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23720682" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839224" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -886,27 +835,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/uielements/badges_labels_progress.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7266592">
-          <caret line="131" column="16" selection-start-line="131" selection-start-column="16" selection-end-line="135" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/layout_4.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.644186">
-          <caret line="53" column="88" selection-start-line="53" selection-start-column="85" selection-end-line="53" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/layout_2.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.78255814">
-          <caret line="47" column="86" selection-start-line="47" selection-start-column="85" selection-end-line="47" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/_topnavbar_2.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.019767443">
@@ -942,13 +870,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/dashboards.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.8846154">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/widgets.css.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.020118343">
@@ -977,71 +898,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/dashboards/_inspanel.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12071006">
-          <caret line="6" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="271" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/dashboards/selfassess.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52193475">
-          <caret line="150" column="124" selection-start-line="150" selection-start-column="106" selection-end-line="150" selection-end-column="124" />
-          <folding>
-            <marker date="1451502470676" expanded="true" signature="3879:3899" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/dashboards/riskassess.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.043869518">
-          <caret line="325" column="40" selection-start-line="325" selection-start-column="40" selection-end-line="325" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/analysis.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/graphs/morris.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/analysis.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46448088">
-          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/analysis/_flow.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3824522">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/analysis/flow.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/analysis/overview.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1060,25 +920,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/analysis/_root.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.69204545">
-          <caret line="488" column="21" selection-start-line="488" selection-start-column="21" selection-end-line="488" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/landing_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9628415">
-          <caret line="130" column="24" selection-start-line="130" selection-start-column="16" selection-end-line="130" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1113,14 +958,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.039534885">
-          <caret line="2" column="9" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/pages.css.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1137,18 +974,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/base/navigation.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30596176">
-          <caret line="338" column="20" selection-start-line="338" selection-start-column="20" selection-end-line="338" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.0081395">
           <caret line="54" column="88" selection-start-line="54" selection-start-column="85" selection-end-line="54" selection-end-column="88" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1166,57 +996,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_navigation.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35433072">
-          <caret line="177" column="117" selection-start-line="177" selection-start-column="111" selection-end-line="177" selection-end-column="117" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/widgets/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.923077">
-          <caret line="87" column="32" selection-start-line="87" selection-start-column="19" selection-end-line="87" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/base/base.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.884615">
-          <caret line="525" column="19" selection-start-line="525" selection-start-column="19" selection-end-line="525" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/dashboards/_map.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.153846">
-          <caret line="32" column="52" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
-          <folding>
-            <element signature="e#220#242#0#HTML" expanded="true" />
-            <marker date="1451842955307" expanded="true" signature="4616:4631" placeholder="..." />
-            <marker date="1451842955307" expanded="true" signature="6690:6705" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/assets/stylesheets/bootstrap-rtl/bootstrap-rtl.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3538283">
-          <caret line="8" column="5781" selection-start-line="8" selection-start-column="5781" selection-end-line="8" selection-end-column="5781" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/assets/stylesheets/bootstrap-rtl/bootstrap-rtl.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.769231">
-          <caret line="647" column="36" selection-start-line="647" selection-start-column="36" selection-end-line="647" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/base/elements.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.6153846">
@@ -1225,9 +1004,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/widgets/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.1923077">
+          <caret line="87" column="32" selection-start-line="87" selection-start-column="19" selection-end-line="87" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/assets/stylesheets/bootstrap-rtl/bootstrap-rtl.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33295837">
+          <caret line="477" column="3" selection-start-line="477" selection-start-column="3" selection-end-line="477" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/assets/stylesheets/bootstrap-rtl/bootstrap-rtl.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21693735">
+          <caret line="8" column="763" selection-start-line="8" selection-start-column="763" selection-end-line="8" selection-end-column="763" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/assets/stylesheets/summernote/summernote-bs3.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.730769">
+          <caret line="723" column="223" selection-start-line="723" selection-start-column="223" selection-end-line="723" selection-end-column="223" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/dashboards/_map.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33255813">
+          <caret line="179" column="10" selection-start-line="179" selection-start-column="10" selection-end-line="179" selection-end-column="10" />
+          <folding>
+            <element signature="e#220#242#0#HTML" expanded="true" />
+            <marker date="1451931736542" expanded="true" signature="4562:4577" placeholder="..." />
+            <marker date="1451931736542" expanded="true" signature="6495:6510" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/base/navigation.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.2">
+          <caret line="341" column="19" selection-start-line="341" selection-start-column="12" selection-end-line="341" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/dashboards/_status.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="24.846153">
+        <state vertical-scroll-proportion="10.269231">
           <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="111" />
           <folding>
             <element signature="e#111#195#0#HTML" expanded="true" />
@@ -1241,10 +1072,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/assets/stylesheets/summernote/summernote-bs3.css">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-26.115385">
-          <caret line="757" column="9" selection-start-line="757" selection-start-column="9" selection-end-line="757" selection-end-column="27" />
+        <state vertical-scroll-proportion="2.909091">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/base/custom.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1259,36 +1098,168 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/dashboards/_checklists.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.6153846">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        <state vertical-scroll-proportion="-4.967742">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="9" selection-end-column="14" />
           <folding>
+            <element signature="e#137#180#0#HTML" expanded="true" />
+            <element signature="e#222#244#0#HTML" expanded="true" />
             <element signature="e#301#345#0#HTML" expanded="true" />
             <element signature="e#388#410#0#HTML" expanded="true" />
-            <marker date="1451838468168" expanded="true" signature="816:832" placeholder="..." />
-            <marker date="1451838468168" expanded="true" signature="920:936" placeholder="..." />
-            <marker date="1451838468168" expanded="true" signature="1916:1932" placeholder="..." />
-            <marker date="1451838468168" expanded="true" signature="2069:2085" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/dashboards/inspection.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/dashboards/selfassess.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.057142">
-          <caret line="36" column="54" selection-start-line="36" selection-start-column="54" selection-end-line="36" selection-end-column="54" />
+        <state vertical-scroll-proportion="-8.823529">
+          <caret line="12" column="99" selection-start-line="12" selection-start-column="99" selection-end-line="12" selection-end-column="99" />
           <folding>
-            <element signature="e#198#263#0#HTML" expanded="true" />
-            <element signature="e#408#439#0#HTML" expanded="true" />
-            <element signature="e#1236#1284#0#HTML" expanded="true" />
+            <element signature="e#254#299#0#HTML" expanded="true" />
+            <element signature="e#935#957#0#HTML" expanded="true" />
+            <marker date="1451936951051" expanded="true" signature="6903:6923" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/base/base.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.472727">
+          <caret line="1302" column="3" selection-start-line="1302" selection-start-column="3" selection-end-line="1302" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/analysis/overview.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.23077">
+          <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/analysis_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="133" column="0" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/dashboards.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1721035">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/analysis.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/analysis.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46448088">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/tables.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="40" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/dashboards.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13005464">
-          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.42732242">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/analysis/_root.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44544432">
+          <caret line="468" column="35" selection-start-line="468" selection-start-column="35" selection-end-line="468" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/dashboards/riskassess.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.5384617">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="11" selection-end-column="58" />
+          <folding>
+            <element signature="e#328#350#0#HTML" expanded="true" />
+            <element signature="e#363#2708#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/dashboards/_inspanel.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-59.692307">
+          <caret line="278" column="8" selection-start-line="278" selection-start-column="8" selection-end-line="279" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/analysis/major.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.923077">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+          <folding>
+            <element signature="e#243#268#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/analysis/root.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.807693">
+          <caret line="45" column="29" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
+          <folding>
+            <element signature="e#218#243#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_navigation.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-25.461538">
+          <caret line="248" column="3" selection-start-line="248" selection-start-column="3" selection-end-line="248" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/dashboards/inspection.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5300231">
+          <caret line="36" column="57" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="57" />
+          <folding>
+            <element signature="e#198#263#0#HTML" expanded="true" />
+            <element signature="e#408#439#0#HTML" expanded="true" />
+            <element signature="e#1060#1086#0#HTML" expanded="true" />
+            <element signature="e#1264#1312#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
