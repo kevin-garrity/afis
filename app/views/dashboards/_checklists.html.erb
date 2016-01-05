@@ -18,6 +18,16 @@
         var rand1, rand2;
 
         rand1 = Math.round(Math.random() * 100);
+        if(rand1 < 50){
+          rand1 += 50;
+        }
+        if(rand1 > 75){
+          rand1 -= 25;
+        }
+        rand1 = rand1 + 25;
+        if(rand1 < 90){
+         rand1 -= 10;
+        }
         $('#container-checklist').highcharts({
           chart: {
             type: 'pie',
@@ -63,6 +73,12 @@
         });
 
         rand2 = Math.round(Math.random() * 100);
+        if(rand2 < 50){
+          rand2 += 50;
+        }
+        if(rand2 > 75){
+          rand2 -= 25;
+        }
       $('#container-completion').highcharts({
         chart: {
           type: 'pie',
