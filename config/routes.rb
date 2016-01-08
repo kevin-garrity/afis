@@ -132,4 +132,5 @@ Myapp::Application.routes.draw do
   get "analysis/major"
   get "analysis/root"
 
+  get "forum/forum_page"
 end
