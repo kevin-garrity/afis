@@ -1297,9 +1297,9 @@ body.mini-navbar.fixed-sidebar .logo-element{
   display: none;
 }
 
-@media (min-width: 1200px) and (max-width: 1280px) {
-  #top10, #riskassess {
-    padding-right: 0px;
+@media (min-width: 1200px) and (max-width: 1510px) {
+  #top10{
+   font-size: 9px;
   }
 }
 
@@ -1307,4 +1307,18 @@ body.mini-navbar.fixed-sidebar .logo-element{
   .padding-checklist{
     display:none;
   }
+}
+
+@media (min-width: 1200px) and (max-width: 1495px){
+  #cntmeasure h1{
+    font-size: 20px;
+  }
+  #cntmeasure h3{
+    font-size: 12px;
+  }
+
+  #defstats h1{
+    font-size: 20px;
+  }
+
 }

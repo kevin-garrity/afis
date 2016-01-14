@@ -1,3 +1,4 @@
+<!--
       <div class="ibox">
         <div class="ibox-title" style="padding-top: 0px; padding-bottom: 0px; height: 50px;">
           <h1>Checklists</h1>
@@ -9,26 +10,53 @@
           <div id="container-completion" style="height: 195px;"></div>
         </div>
       </div>
+-->
+
+<div class="ibox float-e-margins">
+  <div class="ibox-title" style="padding-top: 0px; padding-bottom: 0px; height: 60px;">
+    <h1>Checklists</h1>
+  </div>
+
+  <div class="ibox-content"  style="clear:left; float:left; width: 50%;">
+    <div class="text-center">
+      <h2>Compliance</h2>
+      <div class="m-r-md inline">
+        <input type="text" value="82" class="dial m-r-sm" data-fgColor="#55BF3B" data-width="110" data-height="125"/>
+      </div>
+    </div>
+  </div>
+
+  <div class="ibox-content"  style="clear:right; float:left; width: 50%;">
+    <div class="text-center">
+      <h2>Completion</h2>
+      <div class="m-r-md inline">
+        <input type="text" value="65" class="dial m-r" data-fgColor="#55BF3B" data-width="110" data-height="125"/>
+      </div>
+    </div>
+  </div>
+
+</div>
 
 
 <% content_for :javascript do %>
 
     <script type="text/javascript">
       $(function () {
-        var rand1, rand2;
+        /**
+         var rand1, rand2;
 
-        rand1 = Math.round(Math.random() * 100);
-        if(rand1 < 50){
+         rand1 = Math.round(Math.random() * 100);
+         if(rand1 < 50){
           rand1 += 50;
         }
-        if(rand1 > 75){
+         if(rand1 > 75){
           rand1 -= 25;
         }
-        rand1 = rand1 + 25;
-        if(rand1 < 90){
+         rand1 = rand1 + 25;
+         if(rand1 < 90){
          rand1 -= 10;
         }
-        $('#container-checklist').highcharts({
+         $('#container-checklist').highcharts({
           chart: {
             type: 'pie',
             renderTo: 'container-checklist',
@@ -72,14 +100,14 @@
           }]
         });
 
-        rand2 = Math.round(Math.random() * 100);
-        if(rand2 < 50){
+         rand2 = Math.round(Math.random() * 100);
+         if(rand2 < 50){
           rand2 += 50;
         }
-        if(rand2 > 75){
+         if(rand2 > 75){
           rand2 -= 25;
         }
-      $('#container-completion').highcharts({
+         $('#container-completion').highcharts({
         chart: {
           type: 'pie',
           renderTo: 'container-completion',
@@ -121,7 +149,8 @@
           enableMouseTracking: false
         }]
       });
-
+         **/
+        $(".dial").knob();
       });
     </script>
 

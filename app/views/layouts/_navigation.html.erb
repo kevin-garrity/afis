@@ -26,8 +26,8 @@
             <i class="fa fa-tachometer"></i><span id="dash-viewer" class="nav-label">Dashboard<span class="fa arrow"></span></span>
         <% end %>
         <ul class="nav nav-second-level collapse <%= is_active_controller('dashboards') %>">
-          <li class="<%= is_active_action('inspection') %>"><%= link_to "Commanders Inspection", dashboards_inspection_path %></li>
-          <li class="<%= is_active_action('selfassess') %>"><%= link_to "Self Assessment", dashboards_selfassess_path %></li>
+          <li class="<%= is_active_action('inspection') %>"><%= link_to "CCIP", dashboards_inspection_path %></li>
+          <li class="<%= is_active_action('selfassess') %>"><%= link_to "SIP", dashboards_selfassess_path %></li>
           <li class="<%= is_active_action('riskassess') %>"><%= link_to "Risk Assessment", dashboards_riskassess_path %></li>
           <li><a href="#">CIMB</a></li>
           <li class="<%= is_active_controller('analysis') %>">

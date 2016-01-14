@@ -4,67 +4,81 @@
     <div class="col-lg-8">
       <%= render 'dashboards/map' %>
     </div>
-    <div class="col-lg-4">
-        <div class="widget lazur-bg" style="padding: 15px 20px; margin-top: 10px; margin-bottom: 5px;">
-          <div>
+    <!--
+    <div  id="defstats" class="col-lg-4">
+      <div class="widget lazur-bg" style="padding: 15px 20px; margin-top: 10px; margin-bottom: 5px;">
+        <div>
           <h1 class="m-xs">Closed Deficiency Stats</h1>
-          </div>
         </div>
-          <div class="widget lazur-bg" style="margin:0px 0px 0px 0px;">
-            <div class="row vertical-align">
-              <div class="col-md-6 vertical-align">
-              <div>
-                <i class="fa fa-check-square-o fa-4x"></i>
-              </div>
-              <div>
-                <h1>75%</h1>
-              </div>
-              </div>
-              <div class="col-md-6 vertical-align">
-              <div>
-                <i class="fa fa-trophy fa-4x"></i>
-              </div>
-              <div>
-                <h1>250<small> Total </small></h1>
-              </div>
-              </div>
+      </div>
+      <div class="widget lazur-bg" style="margin:0px 0px 0px 0px;">
+        <div class="row vertical-align">
+          <div class="col-md-6 vertical-align">
+            <div>
+              <i class="fa fa-check-square-o fa-3x"></i>
+            </div>
+            <div>
+              <h1>75%</h1>
             </div>
           </div>
-    </div>
-
-    <div class="col-lg-4" style="padding-top: 20px;">
-      <div class="ibox">
-        <div class="ibox-title" style="margin-bottom: 5px;">
-          <h1>Countermeasure Status</h1>
+          <div class="col-md-6 vertical-align">
+            <div>
+              <i class="fa fa-trophy fa-3x"></i>
+            </div>
+            <div>
+              <h1>250
+                <small> Total</small>
+              </h1>
+            </div>
+          </div>
         </div>
-        <div class="ibox-content" style="padding-top: 10px; padding-bottom: 10px;">
-          <div class="row vertical-align">
-          <div class="col-md-4 text-center">
-          <div>
-            <div id="sparkline1"></div>
+      </div>
+    </div>
+-->
+
+    <div id="defstats" class="col-lg-4">
+      <div class="widget lazur-bg no-padding" style="margin: 0px 0px 0px 0px;">
+        <div class="p-m">
+          <h1 class="m-xs">Closed Deficiency Stats</h1>
+          <div class="p-xxs">
+            <i class="fa fa-check-square-o fa-4x"></i><span style="font-size: 30px;">75%</span>
           </div>
-            <h2>20%</h2>
-            <h5>Not Started</h5>
-          </div>
-          <div class="col-md-4 text-center">
-          <div>
-            <div id="sparkline2"></div>
-          </div>
-            <h2>37%</h2>
-            <h5>In Progress</h5>
-          </div>
-          <div class="col-md-4 text-center">
-          <div>
-            <div id="sparkline3"></div>
-          </div>
-            <h2>43%</h2>
-            <h5>Complete</h5>
-          </div>
+          <div class="p-xxs">
+            <i class="fa fa-trophy fa-4x"></i><span style="font-size: 30px;">250<small style="font-size: 20px;"> Total</small></span>
           </div>
         </div>
       </div>
     </div>
 
+    <div class="col-lg-4">
+      <div id="cntmeasure" class="ibox">
+        <div class="ibox-title" style="margin-top: 5px; height: 75px;">
+          <h1>Countermeasure Status</h1>
+        </div>
+        <div class="ibox-content" style="padding-top: 10px; padding-bottom: 10px; height: 162px;">
+          <div class="row vertical-align text-center">
+            <div class="col-md-4" style="padding-left: 0px; padding-right: 0px;">
+              <h3>Not Started</h3><br/>
+              <div>
+                <input type="text" value="20" class="dial m-r-sm" data-fgColor="#1AB394" data-width="88" data-height="88"/>
+              </div>
+            </div>
+            <div class="col-md-4" style="padding-left: 0px; padding-right: 0px;">
+              <h3>In Progress</h3><br/>
+              <div>
+                <input type="text" value="37" class="dial m-r" data-fgColor="#1AB394" data-width="88" data-height="88"/>
+              </div>
+            </div>
+            <div class="col-md-4" style="padding-left: 0px; padding-right: 0px;">
+              <h3>Complete</h3><br/>
+              <div>
+                <input type="text" value="43" class="dial m-r" data-fgColor="#1AB394" data-width="88" data-height="88"/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
   <div class="row">
@@ -79,25 +93,26 @@
 
     <script type="text/javascript">
       $(function () {
-
-        $("#sparkline1").sparkline([2, 8], {
+        /**
+         $("#sparkline1").sparkline([2, 8], {
           type: 'pie',
           height: '100',
           sliceColors: ['#1ab394', '#F5F5F5']
         });
 
-        $("#sparkline2").sparkline([3.7, 6.3], {
+         $("#sparkline2").sparkline([3.7, 6.3], {
           type: 'pie',
           height: '100',
           sliceColors: ['#1ab394', '#F5F5F5']
         });
 
-        $("#sparkline3").sparkline([4.3, 5.7], {
+         $("#sparkline3").sparkline([4.3, 5.7], {
           type: 'pie',
           height: '100',
           sliceColors: ['#1ab394', '#F5F5F5']
         });
-
+         **/
+        $(".dial").knob();
       });
     </script>
 

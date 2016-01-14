@@ -57,7 +57,7 @@
                             chart.hideLoading();
                           }, 1000);
                         }
-                      }, 3000);
+                      }, 5000);
 
                   // Show the spinner
                   chart.showLoading('<i class="icon-spinner icon-spin icon-3x"></i>'); // Font Awesome spinner
@@ -100,6 +100,10 @@
                         type: 'mappoint',
                         name: 'Wings',
                         color: Highcharts.getOptions().colors[8],
+                        dataLabels: {
+                          crop: false,
+                          overflow: 'none',
+                        },
                         data: [{
                           name: '163rd Attack Wing',
                           lat: 33.9431,
